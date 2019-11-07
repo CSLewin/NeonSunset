@@ -4,7 +4,13 @@ Here's hoping that when Cyberpunk Red comes out, it's a heartbreaking work of st
 
 *A Cyberpunk Roleplaying Game by Craig Chouraki-Lewin* - [blog](http://www.diaghilevsdice.blogspot.com), [email](mailto:CSLewin@gmail.com)
 
-What kind of game is this? To summarize Patrick Stuart summarizing Gregory Blair, Brian Harbron, FM Geist, Zedeck Siew, Brian Murphy, Dirk Detweiler Leichty and Daniel Davis:
+[TOC]
+
+------
+
+## What kind of game is this? 
+
+To summarize Patrick Stuart summarizing Gregory Blair, Brian Harbron, FM Geist, Zedeck Siew, Brian Murphy, Dirk Detweiler Leichty and Daniel Davis:
 
 **[REWRITE THESE AND EXPLAIN WHAT EACH ONE MEANS; DON'T BE A HIPSTER ABOUT IT]**
 
@@ -640,6 +646,19 @@ When you are reduced to 0 health, roll 1d10 and apply the relevant result from t
 |  8   |    Right Arm    |                 Damaged but still attached.                  |
 |  9   |   Upper Torso   | Heart or lungs damaged (GM's call). Repair, replace, or retire. |
 |  10  |   Lower Torso   | Liver, stomach, intestines, or kidneys damaged (GM's call). Repair, replace, or retire. |
+
+------
+
+**[TODO: Delete this information later; I'm leaving it here to remind me why I wrote this.]**
+
+I don't want the default option to be combat. You can say "combat is scary" but it isn't scary unless the mechanics reflect that idea. This stuff isn't the end of the world/your character, though.
+
+- Limb/organ replacement is easy to access; very cheap if you just want a baseline prosthetic, reasonable (for players) if you want to take the opportunity to upgrade to a decent one, and a chance for getting in debt to get a really nice new arm. 
+- Players and NPCs are all subject to this. It matters less for NPCs, since they have far shorter shelf-lives than PCs by far, but the rules cut both ways. As such, the players are informed about what's on the table when the monokatanas and shotguns come out. I want to avoid combat being the *default* response to a problem by any sane person. You can still have recourse to it, and decide to be very good at it, but you're redlining that risk/reward. 
+- Damage mitigation is common. Cover is VERY effective, armor is accessible to every character (no proficiencies or other class-based locks), and there's a parrying mechanic I haven't shared yet for melee combat.
+- Finally, I don't intend for Neon Sunset games to run as endless campaigns. At most, I'd want something intuitively akin to a 6-8 episode Netflix series. You might misplace your leg, but you'll be playing a new character (or one that survived and upgraded during downtime) soon enough.
+
+------
 
 
 
