@@ -416,6 +416,10 @@ Entirely new organs (culture drug glands)? Limb/organ cloning? Full clone replac
 
 asdf
 
+## Drugs and Toxins [TODO]
+
+asdf
+
 ## Other Gear [TODO]
 
 asdf
@@ -594,9 +598,9 @@ Cover and concealment are very common, but they won't keep you alive forever. Ma
 
 Humans have health equal to their GRIT stat * 6. Health is an abstract pool that represents your ability to roll with punches, suffer through pain, and generally turn otherwise-lethal blows into non-lethal impacts. When you're out of health, you finally fail to divert or diminish a hit--the attack that drops you to 0 health strikes true, and you hit the dirt. For reference, an unarmored human can--on average--suffer two shots to the body or one shot to the head with a pistol before dying.
 
-If reduced to 0 health, you're downed--probably bleeding to death, but definitely about to expire. You drop to the ground and lose your grip on anything you're holding. You'll die at the end of a number of rounds equal to your GRIT stat if you don't receive first aid before the end of that final round. 
+If reduced to 0 health, you're downed--probably bleeding to death, but barely conscious and definitely about to expire. You'll die at the end of a number of rounds equal to your GRIT if you don't receive first aid before the end of that final round. 
 
-If a headshot reduced you to 0 health, you die at the end of the next round unless you receive first aid AND successfully roll 1d10 under your Luck stat. If a single source of damage would deal more than 20 points of damage beyond what is currently required to drop you to 0 health, you die instantly, accompanied by a grisly corporeal fanfare.
+If a headshot reduced you to 0 health, you die at the end of the next round unless you receive first aid AND successfully roll 1d10 under your Luck stat. If a single source of damage would deal more than 20 points of damage beyond what is currently required to drop you to 0 health, you are instantly, spectacularly slain.
 
 ## Healing [TODO]
 
@@ -616,13 +620,13 @@ In the past, hacking required extensive knowledge of computer protocols, scripti
 
 Only the terminally enthusiastic call it MAGIC, though; most call it **headware**.
 
-**[TODO: Expand on this.]** Headware is a nanomachine slurry that a corporation will pay you (?) to inject (?) into your brain. It takes a month to integrate, after which you have a smartphone and personal assistant expert system in your brain forever, and the corporation gets an interface through which to advertise to you forever. Headware is powered by a negligible bioelectric draw, and uses an ear clip transcranial magnetic stimulation unit with retractable universal data cable for input, output, and storage. The TMS unit includes a compact wireless antenna with an open-air range of about 100m. You can install and run apps on your headware--as long as they're signed by a corporation.
+**[TODO: Put everything that isn't directly related to a player capability or game mechanic into WORD JAIL.]** Headware is a nanomachine slurry that a corporation will pay you (?) to inject (?) into your brain. It takes a month to integrate, after which you have a smartphone and personal assistant expert system in your brain forever, and the corporation gets an interface through which to advertise to you forever. Headware is powered by a negligible bioelectric draw, and uses an ear clip transcranial magnetic stimulation unit with retractable universal data cable for input, output, and storage. The TMS unit includes a compact wireless antenna with an open-air range of about 100m **[WORD JAIL]**. You can install and run apps on your headware--as long as they're signed by a corporation. **[WORD JAIL]**
 
 This was mostly a cool toy until someone (???) invented the Archaeometric Meta-Protocol. An AMP scans existing network topologies by reading optical and electrical signal "contrails". It uses solipsistic predictive modeling systems to reinterpret the data in a format that a mind-computer interface like your headware can parse. Essentially, an AMP is a Rosetta Stone that translates arbitrary networked information systems into intuitive mental images in humans. There's a whitepaper, but almost everybody who claims to understand it is full of shit. There are thousands of different implementations of AMP, minutely reconfigured to individual preferences.
 
-AMP's interpretive ability is not unlimited. The longer a signal has traveled through a small area and the stronger that signal is or was, the more easily an AMP can interpret the signal's contrail. Old, large, local, or high-power networks are easy for AMP to interpret. Young, small, distant, or low-power networks are harder to parse. Networks with no active signal running through them are impossible to interpret. Likewise, AMP can't be used to generate arbitrary code--it's an interpreter and interface, not a programming language--but, with a little tampering, it can be used to *inject and execute* arbitrary code within a network that it is interpreting.
+**[THIS ENTIRE PARAGRAPH GOES TO WORD JAIL]** AMP's interpretive ability is not unlimited. The longer a signal has traveled through a small area and the stronger that signal is or was, the more easily an AMP can interpret the signal's contrail. Old, large, local, or high-power networks are easy for AMP to interpret. Young, small, distant, or low-power networks are harder to parse. Networks with no active signal running through them are impossible to interpret. Likewise, AMP can't be used to generate arbitrary code--it's an interpreter and interface, not a programming language--but, with a little tampering, it can be used to *inject and execute* arbitrary code within a network that it is interpreting.
 
-If you have headware, you can use your brain to do anything a smartphone could do in 2019, in exchange for a sponsoring corporation keeping permanent tabs on you. If you "free" your headware--circumventing the protective corporate code that prevents unauthorized uses--you drop off the corporate tracking grid and can run anything written for the platform, even if it isn't approved. If you install an AMP, you can literally see computer networks. If you've done all these things and you're very clever, you can use your AMP to directly manipulate those networks with your brain.
+If you have headware, you can use your brain to do anything a smartphone could do in 2019, in exchange for a sponsoring corporation keeping permanent tabs on you. If you "free" your headware--circumventing the protective corporate code that prevents unauthorized uses--you drop off the corporate tracking grid and can run anything written for the platform, even if it isn't approved. **[THE PREVIOUS SENTENCE GOES TO WORD JAIL UNLESS YOU CAN WRITE AN INTERESTING MECHANIC FOR IT]** If you install an AMP, you can literally see computer networks. If you've done all these things and you're very clever, you can use your AMP to directly manipulate those networks with your brain.
 
 ### How_2_Hacking
 
@@ -638,6 +642,17 @@ Yet those who dare, win. If they say the sysadmin is incorruptible and the serve
 
 Hacking requires **Intent, Access, and Preparation.**
 The outcome of the hack is described by **DC: Duration and Consequence.**
+
+**[TODO: WRITE THE HARD/SOFT MECHANICS FIRST, THEN WRITE THE FLUFF TO JUSTIFY IT.]**
+
+Probably keep a split between hard/soft and info/device. It charts well, and simplifies hacking to Target (Info or Access) and Method (Hard or Soft).
+
+- Time is the immutable exchange. 
+  - You can buy protection from damage and exposure (backup hardware, ampoules of CSF coolant, a fake license)
+  - You can redline your gear to go faster (at a skill penalty)
+  - But you can't buy more time.
+- Hard is fast--which makes it inefficient, but hard to stop and easy to notice. Hard risks damage. 
+- Soft is slow--which makes it efficient, but easy to stop and hard to notice. Soft risks exposure.
 
 #### Intent
 
@@ -720,6 +735,10 @@ Two modalities for hacking:
 \- Gather info/answer questions, wager giving info about yourself to target.
 \- Improve odds of success by taking more time, but at scales that make it a downtime/narrative action and not useful in moments of action.
 \- Failure consequences tie in with the (to-be-written) HEAT system, with a table for police/corporate/Black ICE responses.
+
+# It's Easy To Be A Bastard
+
+As a career criminal, being a weapons-grade motherfucker is trivial. Doing things with respect for the value of human life is much harder. Worthwhile? Maybe. Write about that here; maybe talk about what kind of game you're gonna run--do you put people in k-holes and threaten the lives of their family? Do you kill casually? 
 
 ------
 
