@@ -2,7 +2,7 @@ Here's hoping that when Cyberpunk Red comes out, it's a heartbreaking work of st
 
 # **<u>NEON SUNET</u>**
 
-*A Cyberpunk Roleplaying Game by Craig Chouraki-Lewin* - [blog](http://www.diaghilevsdice.blogspot.com), [email](CSLewin@gmail.com)
+*A Cyberpunk Roleplaying Game by Craig Chouraki-Lewin* - [blog](http://www.diaghilevsdice.blogspot.com), [email](mailto:CSLewin@gmail.com)
 
 What kind of game is this? To summarize Patrick Stuart summarizing Gregory Blair, Brian Harbron, FM Geist, Zedeck Siew, Brian Murphy, Dirk Detweiler Leichty and Daniel Davis:
 
