@@ -430,9 +430,23 @@ asdf
 
 When it becomes necessary to determine the order in which people react to something--usually combat, but you never know with these things--each relevant player and NPC rolls **1d10 + Grace + Luck**, the result of which is their initiative. Combat turn order runs from highest to lowest initiative. 
 
-During combat, a character's **turn** represents a few seconds of action. A combat **round** is complete when all characters participating in the combat have taken their turn. Reroll initiative for anyone still active at the start of each new round. 
+During combat, a character's **turn** represents a few seconds of action. A combat **round** is complete when all characters participating in the combat have taken their turn. Reroll initiative for anyone still active at the start of each new round.
 
-## Weapons and Attacks
+## Actions
+
+On your turn, you can move up to 30 feet (at a brisk jog) and do one significant thing. 
+
+Significant things include:
+
+- Moving an additional 30 feet
+- Making one ranged attack
+- Reloading a gun with a new magazine or dumping a heatblock and inserting a new one
+- Making two melee attacks
+- Attempting a hack
+- Giving the same command to all your active drones, which immediately comply
+- Giving a command to your headware. The command is completed just before the start of your next turn.
+
+## Weapons and Attacks  [TODO: CLEANUP]
 
 Static TN by distance/weapon type, modified by firing mode and cover/circumstance. When attacked, target may lose 4 initiative (if they haven't gone yet, or accept -4 to next round's initiative roll if they've already gone) to replace TN of being hit with roll of 1d10+Grace+Athletics until the next time initiative is rolled. Note: If this roll is flubbed, this can make it *easier* for the target to be hit. Use with caution.
 
@@ -539,7 +553,7 @@ Any weapon that fires cased ammunition can use these variant ammunition types. C
 
 - Mechanics: When using a heatblock weapon, don't track individual shots. At the end of a round in which a heatblock weapon was fired in semiauto, burst fire, or full auto mode, roll a number of d6s equal to the weapon's damage dice. Roll one additional d6 if the weapon was used for burst fire, or two additional d6s if the weapon was used for full auto. If any of the dice rolled show a six, the weapon has overheated and cannot be fired for a number of rounds equal to the weapon's damage dice (example: 3d6 damage, 3 rounds to cool down). Alternatively, the weapon can be readied to fire again immediately if the overheated block is ejected and a fresh block is inserted. Note that ejecting an overheated block drops a near-molten lump of metal at the user's feet.
 
-## Melee Attacks
+## Melee Attacks [TODO: SERIOUS RECONSIDERATION]
 
 Opposed rolls. 
 
@@ -594,13 +608,40 @@ Cover and concealment are very common, but they won't keep you alive forever. Ma
 | Medium: 30 Armor |    Engine Block, Concrete Traffic Barrier    |      Medium      |         -2d         | Aware of target, but no direct visual. Heavy smoke. Loud noises from the other side of a wall. Target trying to stay entirely behind cover. |
 | Heavy: 50 Armor  | Exterior Wall, Stalled Tank, Bank Vault Door |     Complete     | Attack Not Possible | You're just guessing. Complete darkness without augmented vision. You're blind. Target is invisible. |
 
-## Damage and Death
+## Damage
 
-Humans have health equal to their GRIT stat * 6. Health is an abstract pool that represents your ability to roll with punches, suffer through pain, and generally turn otherwise-lethal blows into non-lethal impacts. When you're out of health, you finally fail to divert or diminish a hit--the attack that drops you to 0 health strikes true, and you hit the dirt. For reference, an unarmored human can--on average--suffer two shots to the body or one shot to the head with a pistol before dying.
+Humans have health equal to their GRIT * 6. Health directly represents your body's ability to function despite physical trauma. When an attack deals damage, you are physically wounded and suffer terrible pain; when an attack reduces you to 0 health, your mind and body finally give out and you hit the dirt. 
 
-If reduced to 0 health, you're downed--probably bleeding to death, but barely conscious and definitely about to expire. You'll die at the end of a number of rounds equal to your GRIT if you don't receive first aid before the end of that final round. 
+For reference, an unarmored human can suffer roughly two shots to the body or one shot to the head with a pistol before dying. If death isn't instantaneous, it'll take them about 20 to 30 seconds to bleed out, go into shock, and die.
 
-If a headshot reduced you to 0 health, you die at the end of the next round unless you receive first aid AND successfully roll 1d10 under your Luck stat. If a single source of damage would deal more than 20 points of damage beyond what is currently required to drop you to 0 health, you are instantly, spectacularly slain.
+## Death
+
+### Body Shots and Bleeding Out
+
+If reduced to 0 health by a hit to the body, you're dying. You'll expire at the end of a number of rounds equal to your GRIT if you don't receive first aid before the end of that final round. You can act while you're dying, but you suffer a -2d penalty to all actions.
+
+### Headshots and Instant Death
+
+If a headshot reduced you to 0 health, you are immediately knocked unconscious. You will die at the end of the next round unless you receive first aid AND successfully roll 1d10 under your LUCK. If a single attack deals more than 20 points of damage beyond what is currently required to drop you to 0 health, you are instantly, spectacularly slain.
+
+## Dismemberment
+
+When you are reduced to 0 health, roll 1d10 and apply the relevant result from the following chart:
+
+| Roll | Location Struck |                            Effect                            |
+| :--: | :-------------: | :----------------------------------------------------------: |
+|  1   |    Left Leg     | Severed or destroyed. Movement reduced to 5 feet per round.  |
+|  2   |    Left Leg     |                 Damaged but still attached.                  |
+|  3   |    Right Leg    | Severed or destroyed. Movement reduced to 5 feet per round.  |
+|  4   |    Right Leg    |                 Damaged but still attached.                  |
+|  5   |    Left Arm     | Severed or destroyed. Consider the practical implications of only having one arm. |
+|  6   |    Left Arm     |                 Damaged but still attached.                  |
+|  7   |    Right Arm    | Severed or destroyed. Consider the practical implications of only having one arm. |
+|  8   |    Right Arm    |                 Damaged but still attached.                  |
+|  9   |   Upper Torso   | Heart or lungs damaged (GM's call). Repair, replace, or retire. |
+|  10  |   Lower Torso   | Liver, stomach, intestines, or kidneys damaged (GM's call). Repair, replace, or retire. |
+
+
 
 ## Healing [TODO]
 
@@ -647,12 +688,11 @@ The outcome of the hack is described by **DC: Duration and Consequence.**
 
 Probably keep a split between hard/soft and info/device. It charts well, and simplifies hacking to Target (Info or Access) and Method (Hard or Soft).
 
-- Time is the immutable exchange. 
-  - You can buy protection from damage and exposure (backup hardware, ampoules of CSF coolant, a fake license)
-  - You can redline your gear to go faster (at a skill penalty)
-  - But you can't buy more time.
+- Time is the immutable exchange. But you can't buy more time.
 - Hard is fast--which makes it inefficient, but hard to stop and easy to notice. Hard risks damage. 
+  - You can buy protection from damage and exposure (backup hardware, ampoules of CSF coolant, a fake license)
 - Soft is slow--which makes it efficient, but easy to stop and hard to notice. Soft risks exposure.
+  - You can redline your gear to go faster (at a skill penalty)
 
 #### Intent
 
@@ -736,9 +776,11 @@ Two modalities for hacking:
 \- Improve odds of success by taking more time, but at scales that make it a downtime/narrative action and not useful in moments of action.
 \- Failure consequences tie in with the (to-be-written) HEAT system, with a table for police/corporate/Black ICE responses.
 
-# It's Easy To Be A Bastard
+# It's Easy To Be A Weapons-Grade Motherfucker
 
-As a career criminal, being a weapons-grade motherfucker is trivial. Doing things with respect for the value of human life is much harder. Worthwhile? Maybe. Write about that here; maybe talk about what kind of game you're gonna run--do you put people in k-holes and threaten the lives of their family? Do you kill casually? 
+As a career criminal, being an absolute bastard is trivial. Doing things with respect for the value of human life is much harder. Worthwhile? Maybe. 
+
+Write about that here; maybe talk about what kind of game you're gonna run--do you put people in k-holes and threaten the lives of their family? Do you kill casually? Do you rob from the rich and give to the poor?
 
 ------
 
