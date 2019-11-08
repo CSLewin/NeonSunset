@@ -198,7 +198,9 @@ Your character is not complete until you have an answer to these questions:
 |           5-6           |     Tech      |    Community     |
 |           7-8           |  Your Focus   |  Your Approach   |
 
-**Favors** are taken very seriously in the criminal underworld. Sometimes they're represented by physical tokens; more often, they're promised and cashed in among witnesses, backed by the power of peer pressure and communal obligation. If a prior job indicates that someone owes you, pick a Focus/Approach combination that represents the NPC and their relation to the prior job that earned you the favor. Work with the GM to determine a name and general description for the character. You should expect to be able to cash in the favor during gameplay--material support during another job is generally a reasonable request, but accepting severe risks might require additional considerations, such as completing profitable side tasks or owing a favor in return.
+### **Favors** 
+
+Favors and oaths are taken very seriously in the criminal underworld. Sometimes they're represented by physical tokens; more often, they're promised and cashed in among witnesses, backed by the power of peer pressure and communal obligation. If a prior job indicates that someone owes you, pick a Focus/Approach combination that represents the NPC and their relation to the prior job that earned you the favor. Work with the GM to determine a name and general description for the character. You should expect to be able to cash in the favor during gameplay--material support during another job is generally a reasonable request, but accepting severe risks might require additional considerations, such as completing profitable side tasks or owing a favor in return.
 
 If a prior job indicates that you owe someone else a favor, expect that this NPC will turn up during gameplay and cash in what's owed. Requests with a high risk of injury, imprisonment, or death can be negotiated, but outright refusal immediately lowers your Professional Reputation in the NPC's Focus/Approach category by 3--should they survive to talk about it. Dead men might not talk, but an inconvenient corpse can generate its own stories...
 
@@ -436,11 +438,11 @@ During combat, a character's **turn** represents a few seconds of action. A comb
 
 ## Actions
 
-On your turn, you can move up to 30 feet (at a brisk jog) and do one significant thing. 
+On your turn, you can move up to your Speed (at a brisk jog) and do one significant thing. 
 
 Significant things include:
 
-- Moving an additional 30 feet
+- Moving an additional distance equal to your Speed
 - Making one ranged attack
 - Reloading a gun with a new magazine or dumping a heatblock and inserting a new one
 - Making two melee attacks
@@ -628,41 +630,22 @@ If a headshot reduced you to 0 health, you are immediately knocked unconscious. 
 
 ## Dismemberment
 
-When you are reduced to 0 health, roll 1d10 and apply the relevant result from the following chart:
+When you are reduced to 0 health for the first time during a job, roll 1d6 to see where the blow landed. Reroll impossible results. Then, roll 1d10. If the result is even, survival earns you a gnarly scar. If the result is odd, the location has been severed, mangled, or otherwise destroyed and rendered useless.
 
-| Roll | Location Struck |                            Effect                            |
-| :--: | :-------------: | :----------------------------------------------------------: |
-|  1   |    Left Leg     | Severed or destroyed. Movement reduced to 5 feet per round.  |
-|  2   |    Left Leg     |                 Damaged but still attached.                  |
-|  3   |    Right Leg    | Severed or destroyed. Movement reduced to 5 feet per round.  |
-|  4   |    Right Leg    |                 Damaged but still attached.                  |
-|  5   |    Left Arm     | Severed or destroyed. Consider the practical implications of only having one arm. |
-|  6   |    Left Arm     |                 Damaged but still attached.                  |
-|  7   |    Right Arm    | Severed or destroyed. Consider the practical implications of only having one arm. |
-|  8   |    Right Arm    |                 Damaged but still attached.                  |
-|  9   |   Upper Torso   | Heart or lungs damaged (GM's call). Repair, replace, or retire. |
-|  10  |   Lower Torso   | Liver, stomach, intestines, or kidneys damaged (GM's call). Repair, replace, or retire. |
-
-------
-
-**[TODO: Delete this information later; I'm leaving it here to remind me why I wrote this.]**
-
-I don't want the default option to be combat. You can say "combat is scary" but it isn't scary unless the mechanics reflect that idea. This stuff isn't the end of the world/your character, though.
-
-- Limb/organ replacement is easy to access; very cheap if you just want a baseline prosthetic, reasonable (for players) if you want to take the opportunity to upgrade to a decent one, and a chance for getting in debt to get a really nice new arm. 
-- Players and NPCs are all subject to this. It matters less for NPCs, since they have far shorter shelf-lives than PCs by far, but the rules cut both ways. As such, the players are informed about what's on the table when the monokatanas and shotguns come out. I want to avoid combat being the *default* response to a problem by any sane person. You can still have recourse to it, and decide to be very good at it, but you're redlining that risk/reward. 
-- Damage mitigation is common. Cover is VERY effective, armor is accessible to every character (no proficiencies or other class-based locks), and there's a parrying mechanic I haven't shared yet for melee combat.
-- Finally, I don't intend for Neon Sunset games to run as endless campaigns. At most, I'd want something intuitively akin to a 6-8 episode Netflix series. You might misplace your leg, but you'll be playing a new character (or one that survived and upgraded during downtime) soon enough.
-
-------
-
-
+| Roll |              Location Struck               |          Effect until Repaired/Replaced          |
+| :--: | :----------------------------------------: | :----------------------------------------------: |
+|  1   |       Leg (random side and portion)        |        Speed reduced to 5 feet per round         |
+|  2   |       Arm (random side and portion)        |    Obvious drawbacks of one or no hands/arms     |
+| 3-5  | Torso (random side/upper/lower/back/front) | -1d to all rolls. Die in GRIT days unless fixed. |
+|  6   |           Face (random feature)            |      -2d to non-hostile social interactions      |
 
 ## Healing [TODO]
 
 ### First Aid
 
-asdf
+Surgical clinics and hospitals are great for recovery, but one tends not to get shot outside the door of an operating theater. For combat zone wounds, you get combat zone treatment: **Stims.**
+
+A stim is any of hundreds of proprietary pharmaceutical blends of stimulants, clotting agents, and wound-knitting metamaterials. 
 
 ### Long-Term Healing
 
