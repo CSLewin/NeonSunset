@@ -631,7 +631,7 @@ If a headshot reduced you to 0 health, you are immediately knocked unconscious. 
 
 ## Dismemberment
 
-When you are reduced to 0 health for the first time during a job, roll 1d6 to see where the blow landed. Reroll impossible results. Then, roll 1d10. If the result is even, survival earns you a gnarly scar. If the result is odd, the location has been severed, mangled, or otherwise destroyed and rendered useless.
+When you are reduced to 0 health for the first time during a job, roll 1d6 to see where the blow landed. Reroll impossible results. Then, roll 1d10. If the result is even, survival earns you a gnarly scar. If the result is odd, the location has been severed or otherwise mangled.
 
 | Roll |              Location Struck               |          Effect until Repaired/Replaced          |
 | :--: | :----------------------------------------: | :----------------------------------------------: |
