@@ -438,15 +438,16 @@ During combat, a character's **turn** represents a few seconds of action. A comb
 
 ## Actions
 
-On your turn, you can move up to your Speed (at a brisk jog) and do one significant thing. 
+On your turn, you can move up to your Speed (at a brisk jog) and use your action to do one significant thing. 
 
-Significant things include:
+An action can include:
 
 - Moving an additional distance equal to your Speed
 - Making one ranged attack
 - Reloading a gun with a new magazine or dumping a heatblock and inserting a new one
 - Making two melee attacks
 - Attempting a hack
+- Using a stim or other autoinjector.
 - Giving the same command to all your active drones, which immediately comply
 - Giving a command to your headware. The command is completed just before the start of your next turn.
 
@@ -639,17 +640,29 @@ When you are reduced to 0 health for the first time during a job, roll 1d6 to se
 | 3-5  | Torso (random side/upper/lower/back/front) | -1d to all rolls. Die in GRIT days unless fixed. |
 |  6   |           Face (random feature)            |      -2d to non-hostile social interactions      |
 
-## Healing [TODO]
+## Healing
 
 ### First Aid
 
-Surgical clinics and hospitals are great for recovery, but one tends not to get shot outside the door of an operating theater. For combat zone wounds, you get combat zone treatment: **Stims.**
+Someone trained in the Medicine skill can tend to physical wounds. Roll a 1d10+Lore+Medicine against a TN of 10. 
 
-A stim is any of hundreds of proprietary pharmaceutical blends of stimulants, clotting agents, and wound-knitting metamaterials. 
+First Aid restores Health equal to the result of the check - 10. This process of assessment and application requires 10 minutes, access to basic medical supplies, and a lack of overt distractions. For each unfulfilled requirement, the amount of restored health is reduced by an additional 5 (minimum 0 health restored). Restoring at least one health to a dying character stabilizes them until full treatment or a new wound is received. The check may be attempted again if no health was restored by the previous check, but the time requirement doubles for each consecutive check on the same subject within 48 hours.
+
+### Emergency Medical Attention
+
+Surgical clinics and hospitals are great for recovery, but one tends not to get shot outside the door of an operating theater. For combat zone wounds, you get combat zone treatment: **Stims.** 
+
+A stim is any of hundreds of proprietary pharmaceutical blends of stimulants, clotting agents, and wound-knitting metamaterials delivered through an autoinjector. Stims can be used as first aid to automatically stop a dying character from bleeding out. They're designed for battlefield wounds; they'll heal a bullet, not a tumor or the trauma of major surgery.
+
+Drawing and using a stim requires one action. A stim reduces the user's maximum Health by 5, then immediately restores the user's health to the new maximum. The reduction to the user's maximum Health lasts for 48 hours after the most recent stim use. Stim users commonly report a persistent metallic taste in their mouth until the drug wears off.
+
+Reducing your maximum Health to zero or lower triggers organ failure, unconsciousness, and death within GRIT hours unless medical care can be administered at a hospital or clinic. Health is restored from 0 to the former maximum of GRIT * 6 at one point per day of treatment.
 
 ### Long-Term Healing
 
-asdf
+You restore one Health per day while going about the business of simply living. Complete bed rest restores three Health per day. Hospital or clinic care restores five Health per day of active treatment. 
+
+Immersion in a recuperative tank of biofluid is catastrophically expensive, rare, and restores fifteen Health per day of treatment. Tank treatment regenerates any missing limbs, organs, senses, or genetic curiosities possessed at birth after three full days of treatment.
 
 # Hacking: Headware and an AMP
 
