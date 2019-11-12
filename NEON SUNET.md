@@ -494,9 +494,9 @@ asdf
 
 Sometimes negotiations break down. Sometimes someone gets mad. Sometimes an alarm is tripped, and you've got to resort to Plan B. When the knives come out and the air fills with thunder, blood, fear, and cordite, it's important to know who reacts first and how quickly you can find cover.
 
-The wise professional remains aware that the human body is universally allergic to bullets. Neon Sunset is not a game where you can easily eat a blast of automatic gunfire to the chest and laugh about it later over drinks. Extensive rules for combat are presented due to the necessity for precision when determining who lives and who dies. They should not be read as implicit encouragement to rely solely on violence to achieve your various desires. 
+The wise professional remains aware that the human body is universally allergic to bullets. Neon Sunset is not a game where you can easily eat a blast of automatic gunfire to the chest and laugh about it later over drinks. Extensive rules for combat are presented due to the necessity for precision when determining who lives and who dies. They should not be read as implicit encouragement to rely solely on violence to achieve your various desires.
 
-There will always be those brave, mad, or desperate enough to pursue a trade in violence. Successful warriors require rewards commensurate with the incredible risk of this lifestyle, and the wise retire from the path as quickly as possible. Grenades don't care how many jobs you've got under your belt. Shotguns are unmoved by your reputation. You cannot reason with a knife.
+There will always be those brave, mad, or desperate enough to pursue a trade in violence. Successful warriors require rewards commensurate with the incredible risk of this lifestyle, and the wise retire from the path as quickly as possible. Grenades don't care how many jobs you've got under your belt. Shotguns are unmoved by your reputation. You cannot reason with a knife. You can't spend your Coin if you're dead.
 
 Those who live by the gun almost invariably die by the gun. Consider yourself forewarned.
 
