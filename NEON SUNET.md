@@ -199,7 +199,15 @@ Each stat starts with a number of free points in it based on the power level of 
 
 You can't start the game with a stat higher than 10 or lower than the stat's free starting points. While severe physical or mental trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values without the use of cyberware. Make sure you're happy with your stats before gameplay begins.
 
-If you'd like some guidelines for how to assign your stat points, consider putting 7 points in two stats, 5 points in two stats, and 3 points in two stats. If you want to be dangerous in combat, make your highest stats either Might (for hand-to-hand combat) or Grace (for ranged combat), and Grit (to survive more trauma). If you want to be great at social interactions, make your highest stats Charm and either Lore or Luck. If you want to be great at working with technology, make your highest stats Lore and either Grace or Luck.
+If you'd like to quickly assign your stat points, consider putting 7 points in two stats, 5 points in two stats, and 3 points in two stats. If you want to be dangerous in combat, make your highest stats either Might (for hand-to-hand combat) or Grace (for ranged combat), and Grit (to survive more trauma). If you want to be great at social interactions, make your highest stats Charm and either Lore or Luck. If you want to be great at working with technology, make your highest stats Lore and either Grace or Luck.
+
+### Secondary Stats
+
+Secondary Stats are derived from your basic stats (Might, Grace, etc.). You can't spend points on increasing your secondary stats, but anything that changes your basic stats affects your secondary stats. Secondary stats include:
+
+#### Speed
+
+Speed indicates how quickly you can move on foot at a brisk jog. Your Speed is equal to 30 feet per round
 
 ### Exotic Entities
 
@@ -235,9 +243,11 @@ If your preferred cyberpunk setting features non-human player characters--replic
 |             Rank 9             |         12 skill points         |
 | Rank 10 (Area of Expertise #4) |         14 skill points         |
 
-Skills marked with with an "(C)" are **common**; everyone gains experience in them just by growing up in a society. Common skills start with **two free points**. 
+If you'd like to quickly assign your skill points, consider putting 7 skill points into two skills, 5 skill points into two skills, and 3 skill points into two skills. This will give you two skills at Rank 6 (with 3 areas of expertise and +1d each), two skills at Rank 4 (with 2 areas of expertise and +1d each), and two skills at Rank 3 (with 2 areas of expertise each.)
 
+### Common Skills
 
+Skills marked with with an "(C)" are **common**; everyone gains experience in them just by growing up in a society. **Common skills start at Rank 2.** They follow the usual rules for areas of expertise.
 
 ### Skill List
 
@@ -260,28 +270,30 @@ Skills marked with with an "(C)" are **common**; everyone gains experience in th
 
 ##### Brawling
 
-The breadth of your martial arts knowledge is determined by **Style**, and the depth of your knowledge is determined by **Focus**. When you put your first skill point into Brawling, you begin with Style 1 and Focus 1 and must immediately dedicate your first area of expertise to increase either Style or Focus by an additional point.
+Your martial arts knowledge is determined by the **Breadth** and **Depth** of your studies. When you put your first skill point into Brawling, you begin with Breadth 1 and Depth 1 and must immediately dedicate your first area of expertise to increase either Breadth or Depth by an additional point.
 
-When you gain an additional area of expertise in Brawling, you must spend it to increase either your Style or Focus by one point. For example, at Brawling 6, you could have split your three areas of expertise into Style 3/Focus 2, or you could simulate an extreme focus on a single martial art as Style 1/Focus 4. You can spend a month in dedicated training to shift a point of Style to Focus, or vice versa. You cannot reduce either Style or Focus below 1.
+When you gain an additional area of expertise in Brawling, you must spend it to increase either your Breadth or Depth by one point. For example, at Brawling 6, you could have split your three areas of expertise into Breadth 3/Depth 2, or you could simulate an extreme focus on a single martial art as Breadth 1/Depth 4. You can spend a month in dedicated training to shift a point of Breadth to Depth, or vice versa. You cannot reduce either Breadth or Depth below 1.
 
-When attacking or defending against a Brawling attack from another character for the first time, both fighters roll **1d6+Style**. Whomever rolls highest has the technical edge and gains a number of advantages equal to their **Focus** to all Brawling attack and defense rolls made against this particular opponent. You are encouraged to yell things like "YOUR STEEL TIGER STYLE IS NO MATCH FOR MY DIESEL BOAR STANCE."
+When defending against a Brawling attack from another character for the first time, both fighters roll **1d6 + Breadth**. Whomever rolls highest has the technical edge and gains a number of advantages equal to their **Depth** to all Brawling attack and defense rolls made against this particular opponent. You are encouraged to yell things like "YOUR STEEL TIGER STYLE IS NO MATCH FOR MY DIESEL BOAR STANCE."
 
-You automatically win Style checks against nameless NPCs. Regardless of prior outcomes, reroll the Style check at the start of a new encounter with the same opponent.
+You automatically win Breadth checks against nameless NPCs. Regardless of prior outcomes, reroll the Breadth check at the start of a new encounter with the same opponent.
 
-*Example: Morgan and Snake face off against each other, divested of all their guns and knives. Morgan, with a Brawling skill of 6 granting him three areas of expertise, has very broad training: Style 4, Focus 1. Snake has Brawling 6 as well, but has focused all of his areas of expertise into a single style: Style 1, Focus 4. Morgan charges Snake, and the two fighters both roll to see who has the edge. Morgan rolls 1d6+4. Snake rolls 1d6+1. If Morgan wins the roll, he'll enjoy a single advantage in all his attack and defense rolls involving Brawling against Snake. If Snake wins the roll, he'll enjoy **four** advantages in all his attack and defense rolls involving Brawling against Morgan.*
+*Example: Morgan and Snake face off against each other, divested of all their guns and knives. Morgan, with a Brawling skill of 6 granting him three areas of expertise, has very broad training: Breadth 4, Depth 1. Snake has Brawling 6 as well, but has focused all of his areas of expertise into a single style: Breadth 1, Depth 4. Morgan charges Snake, and the two fighters both roll to see who has the edge. Morgan rolls 1d6+4. Snake rolls 1d6+1. If Morgan wins the roll, he'll enjoy a single advantage in all his attack and defense rolls involving Brawling against Snake. If Snake wins the roll, he'll enjoy **four** advantages in all his attack and defense rolls involving Brawling against Morgan.*
 
 ##### Manipulate
 
-When you manipulate someone, it's more than merely making a request; you are attempting to convince or compel them to speak or act. 
+When you manipulate someone, it's more than merely making a request; you are attempting to convince or compel them to speak or act.
 
-Attempting to manipulate someone uses the speaker's Manipulate skill + Charm stat. Resisting a manipulation attempt uses the target's Manipulate skill + Lore stat. NPCs cannot attempt manipulation skill checks against PCs; while NPCs can proffer whatever threats or offers the story requires, it is always up to the player to decide how convinced they are by an NPC's words.
+Attempting to manipulate someone uses the speaker's Manipulate skill + Charm stat. Resisting a manipulation attempt uses the target's Manipulate skill + Lore stat. While someone might claim to be wise, fearless, incorruptible, or possessed of an iron will, everyone has a weakness, and the Manipulate skill represents your ability to successfully navigate interpersonal resistance. While no human is immune to this skill, there are limits to the duration and effectiveness of its use; the Manipulate skill represents contextual coercion, not permanent mind control.
+
+NPCs cannot attempt manipulation skill checks against PCs; while NPCs can propose whatever threats or offers the moment requires, it is always up to the player to decide how convinced they are by an NPC's words.
 
 There are four essential approaches to manipulation. To carry any weight, each approach requires evidence that your offer, statement, or trade is actually possible, and each approach has a general consequence for failing to follow through or otherwise getting caught:
 
-- **Deception** is an outright lie meant to convince. On a failed check, the target simply finds you unconvincing. Getting caught lying, however, will impose disadvantage to all future Manipulation attempts against the target.
-- **Intimidation** compels the target through the threat or act of violence. A failed check requires you to carry out your threat or suffer disadvantage on all future Manipulation attempts against the target. If the target survives the encounter, they will generally look for a way to get back at you, directly or indirectly, for any harm inflicted.
-- **Negotiation** trades one action for another. On a failed check, the target doesn't believe you have the means to carry out your end of the deal. If you succeed but fail to deliver, you suffer disadvantage on all future Manipulation attempts against the target. If they were particularly relying on your actions, they may seek additional recompense.
-- **Bribery** offers money or goods in exchange for action. On a failed check, the target is unconvinced that your offer is worth their time or risk. Even when successful, a wise target generally won't act until the bribe is delivered.
+- **Deception** is an outright lie meant to convince. On a failed check, the target simply finds you unconvincing. Getting caught lying, however, will impose -1d to all future Manipulation attempts against the target.
+- **Intimidation** compels the target through the threat or act of violence. A failed check requires you to carry out your threat or suffer -1d on all future Manipulation attempts against the target. If the target survives the encounter, they will generally look for a way to get back at you, directly or indirectly, for any harm or embarrassment inflicted.
+- **Negotiation** trades one action for another. On a failed check, the target doesn't believe you have the means to carry out your end of the deal. If you succeed on your check but fail to deliver on your promises, you suffer -1d on all future Manipulation attempts against the target. If they were particularly reliant on your actions, they may seek additional recompense.
+- **Bribery** offers money or goods in exchange for action or information. On a failed check, the target is unconvinced that your offer is worth their time or risk. Even when successful, a wise target generally won't act until the bribe is delivered.
   - The value required to bribe someone is unpredictable. To eyeball an amount, the GM should roll 3d6 to find the base bribe, then multiply that by a value commensurate with the social class or sheer chutzpah of the target. The higher the bribe, the more likely that it will be requested in currency, rather than goods.
     - x $1-100 for the the destitute and desperate or the stable but poor.
     - x $100-1,000 for the comfortably employed, the rich, or government/corporate employees.
@@ -437,7 +449,9 @@ Two kinds of currency: Scrip and Coin. Printed money still exists, but
 
 Limbs and Senses
 
-Baseline Prosthetics: Functional, but -1d to do anything with them. At least it's not a pegleg.
+Secondhand Cyberware: Functional, but -1d to do anything with it. At least it's not a pegleg. Very cheap.
+
+Baseline Prosthetics: Equivalent to a human limb or sense. Obviously artificial.
 
 Cyberware Replacements: Upgrades over the original meat.
 
@@ -477,6 +491,14 @@ asdf
 asdf
 
 # Combat
+
+Sometimes negotiations break down. Sometimes someone gets mad. Sometimes an alarm is tripped, and you've got to resort to Plan B. When the knives come out and the air fills with thunder, blood, fear, and cordite, it's important to know who reacts first and how quickly you can find cover.
+
+The wise professional remains aware that the human body is universally allergic to bullets. Neon Sunset is not a game where you can easily eat a blast of automatic gunfire to the chest and laugh about it later over drinks. Extensive rules for combat are presented due to the necessity for precision when determining who lives and who dies. They should not be read as implicit encouragement to rely solely on violence to achieve your various desires. 
+
+There will always be those brave, mad, or desperate enough to pursue a trade in violence. Successful warriors require rewards commensurate with the incredible risk of this lifestyle, and the wise retire from the path as quickly as possible. Grenades don't care how many jobs you've got under your belt. Shotguns are unmoved by your reputation. You cannot reason with a knife.
+
+Those who live by the gun almost invariably die by the gun. Consider yourself forewarned.
 
 ## Initiative
 
