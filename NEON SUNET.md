@@ -508,7 +508,7 @@ If you're going to use a human-scale gridded map for combat, one grid space shou
 
 When it becomes necessary to determine the order in which people react to something--usually combat, but you never know with these things--each relevant player and NPC rolls **1d10 + Grace + Luck**, the result of which is their initiative. Combat turn order runs from highest to lowest initiative. 
 
-During combat, a character's **turn** represents a few seconds of action. A combat **round** is complete when all characters participating in the combat have taken their turn. Reroll initiative for anyone still active at the start of each new round.
+During combat, a character's **turn** represents about three seconds of action. A combat **round** is complete when all characters participating in the combat have taken their turn. Reroll initiative for anyone still active at the start of each new round.
 
 ## Actions
 
@@ -518,12 +518,12 @@ An action can include:
 
 - Moving an additional distance equal to your Speed
 - Making one ranged attack
-- Reloading a gun with a new magazine or dumping a heatblock and inserting a new one
+- Reloading a gun with a new magazine, or dumping a heatblock and inserting a new one
 - Making two melee attacks
 - Attempting a hack
 - Using a stim or other autoinjector.
 - Giving the same command to all your active drones, which immediately comply
-- Giving a command to your headware. The command is completed just before the start of your next turn.
+- Giving a command to your headware.
 
 ## Weapons and Attacks  [TODO: CLEANUP]
 
@@ -754,7 +754,7 @@ This was mostly a cool toy until someone (???) invented the Archaeometric Meta-P
 
 If you have headware, you can use your brain to do anything a smartphone could do in 2019, in exchange for a sponsoring corporation keeping permanent tabs on you. If you "free" your headware--circumventing the protective corporate code that prevents unauthorized uses--you drop off the corporate tracking grid and can run anything written for the platform, even if it isn't approved. **[THE PREVIOUS SENTENCE GOES TO WORD JAIL UNLESS YOU CAN WRITE AN INTERESTING MECHANIC FOR IT]** If you install an AMP, you can literally see computer networks. If you've done all these things and you're very clever, you can use your AMP to directly manipulate those networks with your brain.
 
-### How_2_Hacking
+## How_2_Hacking
 
 Hacking means using a networked computer to gather information or gain control of an electronic device--usually information or a device that someone else doesn't want you to access. This can be accomplished using a traditional desktop, a modular laptop computer, or through a headware/AMP system.
 
@@ -773,7 +773,7 @@ The outcome of the hack is described by **DC: Duration and Consequence.**
 
 Probably keep a split between hard/soft and info/device. It charts well, and simplifies hacking to Target (Info or Access) and Method (Hard or Soft).
 
-- Time is the immutable exchange. But you can't buy more time.
+- Time is the immutable exchange. You can't get more time.
 - Hard is fast--which makes it inefficient, but hard to stop and easy to notice. Hard risks damage. 
   - You can buy protection from damage and exposure (backup hardware, ampoules of CSF coolant, a fake license)
 - Soft is slow--which makes it efficient, but easy to stop and hard to notice. Soft risks exposure.
@@ -882,15 +882,52 @@ Slow: press your luck. Failure lets you double down on potential damage/informat
 
 Fast and Hard: Opposed rolls, mounting difficulty. Damage/Feedback/Lockdown on each roll.
 
-Weapons: standardized damage by ideal range/concealability/gun type.
+~
 
-More damage/range = -conceal; 
-Less damage/range = +conceal
-+RoF (3RB/auto capability) = -Accuracy; 
--RoF (<1 shots/round) = +Accuracy (rate of aiming bonus accrual)
+NEON SUNSET guns have damage, range, concealment, rate of fire, ammo type, and noise categories. You can modify a gun's damage, range, concealment, rate of fire, and noise. 
 
-Legality by damage dice. (2d6 Civ/3d6 Pro/4d6+ Mil)
+A + or - indicates one step up or down on that category's units. 
+All gun modification in NEON SUNSET is illegal, but that's unlikely to stop anyone.
+You can also change the ammo type, but that's independent of the rest (it takes either cased ammo or heatblock tech).
 
-Ammo: manually track (caseless, reliable, bulky), or usage die for metallic block chipper/heatsink (long term, less to carry, less reliable)
+Damage: 1d6 (min)/2d6/3d6/4d6/5d6/6d6 (max)
+	+damage = +noise AND -range OR worse concealment.
+	-damage = -noise AND +range OR better concealment
 
-Reputation: limited categorical, not monolithic or arbitrary categories. Cross-results of institutional/survival/anarchic and combat/social/tech. (Like classes). Points added or subtracted to individual categories, max 10/min -10. Roll for initial impression. General notoriety is absVal(total of all) out of 100.
+Range: Melee/Close/Short/Medium/Long/Extreme
+	+range = +noise OR -damage OR worse concealment
+	-range = -noise OR -damage OR better concealment
+
+Concealment: Pocket/Jacket/Coat/Not Possible
+	better concealment (smaller gun) = -damage OR -range
+	worse concealment (larger gun) = +damage OR +range
+
+Rate of Fire: Semiauto, Burst, Full Auto
+	+RoF = -damage OR -range
+	-RoF = +damage OR +range
+
+Noise: Quiet, Room, Floor, Building, Block, Mile
+	-noise = -damage OR -range OR better concealment
+	+noise = +damage OR +range OR worse concealment (THE LOUDENER)
+
+TODO
+
+- Hacking
+- Cyberware
+  - Bioware
+  - Cloning
+- Lifestyle Benefits/Costs
+  - Upkeep Costs (Rent, firmware)
+  - Healing? Social Access? 
+- Economy (Game, not Fiction)
+  - What does living well cost?
+  - What do upgrades cost?
+  - **What should a job pay?**
+  - **What does it cost to RETIRE?**
+- HEAT Systems
+  - Manipulating HEAT
+- Licensing
+- Jail (Doing Hard Time)
+  - Stacks (brainfarm)
+- Other Equipment?
+- Vehicles and Chases?
