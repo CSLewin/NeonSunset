@@ -207,7 +207,7 @@ Secondary Stats are derived from your basic stats (Might, Grace, etc.). You can'
 
 #### Speed
 
-Speed indicates how quickly you can move on foot at a brisk jog. Your Speed is equal to 30 feet per round
+Speed indicates how quickly you can move on foot. Your Speed is equal to your Might + Grace in meters per round.
 
 ### Exotic Entities
 
@@ -500,6 +500,10 @@ There will always be those brave, mad, or desperate enough to pursue a trade in 
 
 Those who live by the gun almost invariably die by the gun. Consider yourself forewarned.
 
+## [Sidebar] A Note On Battle Maps
+
+If you're going to use a human-scale gridded map for combat, one grid space should equate to 1 square meter. Alternatively, multiply all the meter measurements in the game by 5 foot increments and it'll still work.
+
 ## Initiative
 
 When it becomes necessary to determine the order in which people react to something--usually combat, but you never know with these things--each relevant player and NPC rolls **1d10 + Grace + Luck**, the result of which is their initiative. Combat turn order runs from highest to lowest initiative. 
@@ -579,7 +583,7 @@ Anyone capable of Combat Magic can identify another spellcaster by staring into 
 
 To maintain genre conventions, it is the author's suggestion that non-combat magic--if it exists--remain incapable of time travel, teleportation, or the resurrection of the dead. Your call.
 
-## Modifying Weapons
+## Modifying Weapons [TODO]
 
 It is possible to modify a weapon's performance. Begin with a base weapon listed in the chart above. These represent the most common configuration of a weapon of that type, available in a vast array of colors, materials, and brands.
 
@@ -705,7 +709,7 @@ When you are reduced to 0 health for the first time during a job, roll 1d6 to se
 
 | Roll |              Location Struck               |          Effect until Repaired/Replaced          |
 | :--: | :----------------------------------------: | :----------------------------------------------: |
-|  1   |       Leg (random side and portion)        |        Speed reduced to 5 feet per round         |
+|  1   |       Leg (random side and portion)        |        Speed reduced to 1 meter per round        |
 |  2   |       Arm (random side and portion)        |    Obvious drawbacks of one or no hands/arms     |
 | 3-5  | Torso (random side/upper/lower/back/front) | -1d to all rolls. Die in GRIT days unless fixed. |
 |  6   |           Face (random feature)            |      -2d to non-hostile social interactions      |
