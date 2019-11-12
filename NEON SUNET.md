@@ -1,5 +1,3 @@
-Here's hoping that when Cyberpunk Red comes out, it's a heartbreaking work of staggering genius and nails the feel, the genre conventions, and game mechanics to the tune of a dozen Ennies. Until then, I'm gonna probably use this for Cyberpunk TTRPGs. Presenting: 
-
 # **<u>NEON SUNET</u>**
 
 *A Cyberpunk Roleplaying Game by Craig Chouraki-Lewin* - [blog](http://www.diaghilevsdice.blogspot.com), [email](mailto:CSLewin@gmail.com)
@@ -60,7 +58,7 @@ For each **disadvantage** on a roll, roll an additional d10 and use the **lowest
 | **Easy: TN 10**      | An average person of average skill can accomplish this task unless distracted or opposed. | Swapping a dead battery in your electric scooter in time to get to work. |
 | **Moderate: TN 15**  | An average person of average skill can get this done in a few moments; a skilled master or a natural-born genius finds this task trivial. | Clearing the chamber of a jammed heatblock pistol while under heavy gunfire. |
 | **Hard: TN 20**      | A taxing task even for someone naturally adept and highly skilled. | Hacking an active corporate data core using an off-the-rack cyberdeck. |
-| **Heroic: TN 25**    | The world's finest find this task iffy, even without distractions, but not impossible. | Avoiding patient infection during thoracic surgical installation of bioware outside of a sterile operating room. |
+| **Heroic: TN 25**    | The world's finest find this task iffy, even without distractions, but not impossible. | Avoiding patient infection during surgical installation of bioware outside of a sterile operating room. |
 | **Legendary: TN 30** | Accomplishing this task is virtually impossible without extraordinary talent, masterful skill, excellent gear, and a good bit of luck. | Scaling a skyscraper's exterior from street level to the roof during an acid rain typhoon. |
 
 ## Common Circumstance Modifiers
@@ -81,12 +79,229 @@ When rounding, always round down to the nearest whole number.
 
 # Character Creation
 
+## Summary
+
+- Pick a Focus: Combat, Social, or Tech
+- Pick an Approach: Institutional, Self-Reliance, Community
+- Determine your initial Profession Reputation and General Reputation
+- Spend 30 points across your six stats.
+- Spend 30 points across your desired skills.
+- Pick areas of expertise for each skill with at least one rank.
+
 Your character is not complete until you have an answer to these questions:
 
 - "What prevents you from working a normal job and living a normal life?"
 - "Why have you chosen to associate with career criminals?"
 
+## Focus
+
+Select your primary Focus: **Combat**, **Social**, or **Tech**. Although you're capable of many other tasks, your Focus defines your main skillset.
+
+### Combat Focus
+
+Your business is discriminate violence; dealing death while surviving the same.
+
+- Divide 2 free stat points among Might, Grace, and Luck.
+- Divide 4 free skill points among Perception, Shooting, Athletics, Brawling, and Swordplay.
+- You don't have to spend an action to reload a personal weapon. Everyone else does.
+- You have a +1d bonus to all attacks. You are considered to have all weapons as areas of expertise.
+- You recognize weapons and armor. The GM will provide details (armor value, damage, etc.) when asked.
+
+### Social Focus
+
+Your primary skillset is interpersonal; negotiation, manipulation, and coercion.
+
+- Divide 2 free stat points among Charm, Lore, and Luck.
+- Divide 4 free skill points among Perception, Tracking, Streetwise, Stealth, and Manipulate.
+- You have all Manipulate approaches as areas of expertise. You can spend Manipulation areas of expertise on groups of people (Gangers, Corporates, Cops, etc.) and receive +1d on all rolls to interact with them.
+- Reroll a failed Manipulate check once per session. The check must use a different approach than what failed.
+- You start the game with 8 additional Professional Reputation points to distribute as you see fit.
+
+### Tech Focus
+
+Your talents involve electronic, mechanical, or biological systems; building, fixing, or modifying them. 
+
+- Divide 2 free stat points among Grit, Lore, and Luck. 
+- Divide 4 free skill points among Technology, Streetwise, Driving, Medicine, and Manipulate.
+- All applications of the Technology skill are considered an area of expertise for you. You can spend Technology areas of expertise on sub-categories of the skill's use (Electronics - Computers, or Gunsmithing - Rifles) and receive +1d on all rolls within that sub-category.
+- You're familiar with modern technology. The GM will provide details (make, model, material, function) when asked. 
+
+## Approach
+
+Select your character's Approach--the means through which they apply their Focus. Your Approach largely determines the groups with whom you personally associate, and is reflected in your Professional Reputations.
+
+### Institutional
+
+You get things done by drawing on powerful formal institutions, legal or otherwise. Corporations, governments, law enforcement bodies, gangs, and organized crime syndicates are all examples of institutions.
+
+- Combat/Institutional Examples: Cop, Corporate Security, Government Agent, Mob Enforcer, Ninja Clan Assassin
+- Social/Institutional Examples: Attorney, Corporate Officer, Government Analyst, Private Investigator, 
+- Tech/Institutional Examples: ????? **[TODO]**
+
+### Self-Reliance
+
+You can always count on #1. A self-reliant approach represents cultivating one's own talents rather than relying on the support of others. It's a lonely road, but you'll always see eye-to-eye with your boss.
+
+- Combat/Self-Reliance Examples: Career Mercenary, Hired Muscle
+- Social/Self-Reliance Examples: Social Media Influencer, Citizen Journalist, Actor/Performer
+- Tech/Self-Reliance Examples: Street Doc, Mechanic, Armorer/Weaponsmith
+
+### Community
+
+You draw strength from others like you. Communities can be based on geography, ethnicity, social status, interests and hobbies, common threats, politics and philosophies, or an infinite variety of other identities.
+
+- Combat/Community Examples: Ganger, Cult Member, Guerilla, Insurgent
+- Social/Community Examples: Fixer, Information Broker, Spy/Undercover Agent
+- Tech/Community Examples: Hacker, ??? **[TODO]**
+
+## Reputation
+
+The nine combinations of Focus and Approach are a rough equivalent to the possible areas in which you can grow your reputation. Characters defined by the same Focus/Approach combination are more alike than not, although a beat cop and a corporate security officer might disagree strongly on that point. Focus/Approach combinations are game elements, not explicit categories recognized within the world; treat them as the map, not the territory.
+
+**Professional Reputation** within a Focus/Approach combination runs from a minimum of 0 (practically anonymous) to a maximum of 10 (internationally recognizable). Your Professional Reputation * 10 is the *percentage chance* that an NPC involved in or adjacent to the criminal underworld through which you move has heard of your exploits.
+
+If you're looking for uncommon or proscribed information, services, or supplies, your Professional Reputation is the chance you have of knowing someone who can get you what you want--the GM will tell you which Focus/Approach combination is most appropriate to your desires. If someone in that category owes you a favor, you can generally cash in the favor to get what you want. Otherwise, you're likely to owe them a favor in return. If your contact isn't able to get what you want, they might be able to put you in touch with someone who can--but you'll owe them a favor for making the introduction in addition to the price charged by whomever you ultimately speak to.
+
+Most people do not share your life riding along the ragged edge of disaster. To determine your recognition among the rest of the population, you have a General Reputation. Your **General Reputation** is the sum of all your individual Professional Reputations. This total is the *percentage chance* that an NPC uninvolved in the world of professional criminals has heard of you. If this is the case, the NPC is likely to react with some apprehension, as you are a notorious career criminal and they are not.
+
+You start with a Professional Reputation of 2 in all areas matching your Focus and all areas matching your Approach. In your specific Focus/Approach combination, you start with a Professional Reputation of 4. Your Professional Reputation can be altered by Prior Jobs before the game begins. During gameplay and between jobs, the GM may apply changes to your Professional Reputations based on your actions and the actions of your crew.
+
+*Example: The starting Professional and General Reputations of Mari, a Social Focus/Community Approach character with no prior jobs.*
+
+| General Rep: 12% | Institutional | Self-Reliant | Community |
+| :--------------: | :-----------: | :----------: | :-------: |
+|    **Combat**    |   **0/10**    |   **0/10**   | **2/10**  |
+|    **Social**    |   **2/10**    |   **2/10**   | **4/10**  |
+|     **Tech**     |   **0/10**    |   **0/10**   | **2/10**  |
+
+## Stats
+
+**Divide 30 points among your stats.** Each stat ranges from 1 (pitiful) to 10 (human pinnacle). Human average in a stat is 5. Remember to spend the free stat points received from your Focus.
+
+- Might:  How much force can you muster?
+  - Might contributes to melee damage, brute lifting/carrying, some athletic efforts, and some means of intimidation.
+- Grace: How deft are you?
+  - Grace contributes to avoiding physical harm, combat accuracy, unaugmented driving, 
+- Grit: How long can you endure?
+  - [TODO]
+- Charm: How convincing are you?
+  - [TODO]
+- Lore: How much do you remember? education, teaching, 
+  - [TODO]
+- Luck: How lucky are you?
+  - Luck is a pool of floating Advantages. You can apply them before you roll to cancel out Disadvantages or to give yourself additional Advantages up to the usual maximum of +3d. You must announce that you're spending Luck before you roll your dice. You cannot spend Advantages from Luck after you've already rolled.
+
+Each stat starts with a number of free points in it based on the power level of the game. You should decide on this power level in a conversation between the players and the GM before the game starts. 
+
+- **Gutterpunk Trash**: Each stat starts with **0 free points**. Your character is merely normal, for better or worse.
+- **Cyberpunk Standard**: Each stat starts with **1 free point.** This is the default assumption used in these rules.
+- **Dark Future Heroics**: Each stat starts with **2 free points**. Your character is meaningfully stronger than average.
+
+You can't start the game with a stat higher than 10 or lower than the stat's free starting points. While severe physical or mental trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values without the use of cyberware. Make sure you're happy with your stats before gameplay begins.
+
+If you'd like some guidelines for how to assign your stat points, consider putting 7 points in two stats, 5 points in two stats, and 3 points in two stats. If you want to be dangerous in combat, make your highest stats either Might (for hand-to-hand combat) or Grace (for ranged combat), and Grit (to survive more trauma). If you want to be great at social interactions, make your highest stats Charm and either Lore or Luck. If you want to be great at working with technology, make your highest stats Lore and either Grace or Luck.
+
+### Exotic Entities
+
+If your preferred cyberpunk setting features non-human player characters--replicants, androids, aliens, elves, etc.--you can represent their extraordinary capabilities by exchanging two stat points during character creation for one permanent advantage on a specific type of roll. If you wanted to play a character with extraordinary hearing, for example, you could exchange two stat points (leaving you with 28 to spend) for one advantage on all Perception checks made to hear something. Alternatively, you could accept a permanent disadvantage on all checks using a certain skill in exchange for one additional stat point to spend during character creation. Discuss your ideas with the GM first--these modifications are an option, not a default, and these examples are only suggestions, not standards for universal comparison.
+
+## Skills
+
+**Divide 30 points among your skills.** Skill ranks range from 0 (untrained) to 10 (practiced expert). Remember to spend the free skill points received from your Focus. Note that these are free skill **points**, not free skill ranks.
+
+- Ranks 1, 2, and 3 each cost **one skill point**.
+- Rank 4 costs **two skill points**. At Rank 4, gain +1d on all uses of this skill.
+- Ranks 5, 6, and 7 each cost **one skill point**.
+- Rank 8 costs **two skill points**. At Rank 8, gain an additional +1d on all uses of this skill (total +2d).
+- Ranks 9 and 10 each cost **two skill points**.
+- In total, raising a skill from Rank 0 to Rank 10 costs **14 skill points**.
+
+### Areas of Expertise
+
+**You gain an area of expertise in a skill at ranks 1, 3, 6, and 10.** Each skill use within your area of expertise is rolled using the full value of the skill. Using a skill outside your areas of expertise cuts your total stat + skill value in half (rounded down).
+
+*Example: Mika's Shooting skill is 2 at character creation. She selects "shotguns" as her area of expertise, and will roll 1d10 + Grace + Shooting whenever she fires a shotgun, or 1d10 + half her Grace + half her Shooting skill if she fires any other kind of weapon. During the game, she raises her Shooting skill to 7. Mika has two additional areas of expertise in Shooting, which she gained at ranks 3 and 6. Mike has selected "rifles" and "pistols"; when she fires a shotgun, rifle, or pistol, she'll roll 1d10 + Grace + Shooting. When she fires any gun that isn't a shotgun, rifle, or pistol, she'll roll 1d10 + half her Grace + half her Shooting skill.*
+
+|           Skill Rank           | Total Cost to Raise from Rank 0 |
+| :----------------------------: | :-----------------------------: |
+| Rank 1 (Area of Expertise #1)  |          1 skill point          |
+|             Rank 2             |         2 skill points          |
+| Rank 3 (Area of Expertise #2)  |         3 skill points          |
+|          Rank 4 (+1d)          |         5 skill points          |
+|             Rank 5             |         6 skill points          |
+| Rank 6 (Area of Expertise #3)  |         7 skill points          |
+|             Rank 7             |         8 skill points          |
+|          Rank 8 (+2d)          |         10 skill points         |
+|             Rank 9             |         12 skill points         |
+| Rank 10 (Area of Expertise #4) |         14 skill points         |
+
+Skills marked with with an "(C)" are **common**; everyone gains experience in them just by growing up in a society. Common skills start with **two free points**. 
+
+
+
+### Skill List
+
+| Skill          | Stat               | Description/Uses                                             | Areas of Expertise                                           |
+| -------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Athletics (C)  | Might or Grace     | Making it harder to get shot or stabbed. Use Might for swimming, climbing and leaping; use Grace for balancing and acrobatics. | Athletic specialties (swimming, climbing, leaping, balancing, acrobatics, etc.) |
+| Brawling       | Might              | Martial arts, boxing, or the brutal simplicity of old-fashioned chin music. Defending against the same. | Special. See below.                                          |
+| Driving        | Grace or Lore      | Use Grace for physical controls; use Lore to pilot vehicles with a cybernetic interface. | Types of vehicles (car, motorcycle, speedboat, hovercraft, helicopter, tank, drone, etc.) |
+| Manipulate (C) | Charm **and** Lore | Convincing people to do what you want. Different methods have different consequences; see below. | Methods of manipulation (Bribery, Deception, Persuasion, Intimidation) |
+| Medicine       | Lore               | Knowledge and application of medical technqiues and concepts. Used for combat first aid. | Types of medicine (EMS, surgery, disease, poisons and toxins) |
+| Perception (C) | Luck               | Noticing important things near you, like dropped keys, weird smells, or landmines. | Methods of observation (visual, auditory, olfactory, touch, electronic surveillance, etc.) |
+| Shooting       | Grace              | Hitting targets with fired or thrown ranged weapons.         | Types of ranged weapons (pistol, rifle, shotgun, SMG, rocket, grenade launcher, etc.) |
+| Stealth        | Grace or Lore      | Use Grace for remaining inconspicuous to living creatures. Use Lore against digital sensors. | Stealth within a context (crowds, cities, driving, digital networks,etc.) |
+| Streetwise (C) | Lore               | Knowing a location like a native. Who's who, what's dangerous, where to get a good burrito. | Individual places the size of a city district.               |
+| Swordplay      | Grace              | Effective use of any kind of melee weapon, including cyberlimbs. Defending against the same. | Types of melee weapons (swords, clubs, knives, axes, hammers, cyberlimbs, implanted cyberweapons) |
+| Technology     | Lore               | Knowledge of and ability to use, build, or manipulate technologies. Used to craft equipment. | Areas of tech (electronics, cybertech, inorganic chemistry, drugs, gunsmithing, etc.) |
+| Tracking       | Lore               | Following the trail of people, animals, vehicles, or data.   | Tracking in terrain (Urban, Forest, Tundra, Social Media, Databases, etc.) |
+
+#### Special Skill Rules
+
+##### Brawling
+
+The breadth of your martial arts knowledge is determined by **Style**, and the depth of your knowledge is determined by **Focus**. When you put your first skill point into Brawling, you begin with Style 1 and Focus 1 and must immediately dedicate your first area of expertise to increase either Style or Focus by an additional point.
+
+When you gain an additional area of expertise in Brawling, you must spend it to increase either your Style or Focus by one point. For example, at Brawling 6, you could have split your three areas of expertise into Style 3/Focus 2, or you could simulate an extreme focus on a single martial art as Style 1/Focus 4. You can spend a month in dedicated training to shift a point of Style to Focus, or vice versa. You cannot reduce either Style or Focus below 1.
+
+When attacking or defending against a Brawling attack from another character for the first time, both fighters roll **1d6+Style**. Whomever rolls highest has the technical edge and gains a number of advantages equal to their **Focus** to all Brawling attack and defense rolls made against this particular opponent. You are encouraged to yell things like "YOUR STEEL TIGER STYLE IS NO MATCH FOR MY DIESEL BOAR STANCE."
+
+You automatically win Style checks against nameless NPCs. Regardless of prior outcomes, reroll the Style check at the start of a new encounter with the same opponent.
+
+*Example: Morgan and Snake face off against each other, divested of all their guns and knives. Morgan, with a Brawling skill of 6 granting him three areas of expertise, has very broad training: Style 4, Focus 1. Snake has Brawling 6 as well, but has focused all of his areas of expertise into a single style: Style 1, Focus 4. Morgan charges Snake, and the two fighters both roll to see who has the edge. Morgan rolls 1d6+4. Snake rolls 1d6+1. If Morgan wins the roll, he'll enjoy a single advantage in all his attack and defense rolls involving Brawling against Snake. If Snake wins the roll, he'll enjoy **four** advantages in all his attack and defense rolls involving Brawling against Morgan.*
+
+##### Manipulate
+
+When you manipulate someone, it's more than merely making a request; you are attempting to convince or compel them to speak or act. 
+
+Attempting to manipulate someone uses the speaker's Manipulate skill + Charm stat. Resisting a manipulation attempt uses the target's Manipulate skill + Lore stat. NPCs cannot attempt manipulation skill checks against PCs; while NPCs can proffer whatever threats or offers the story requires, it is always up to the player to decide how convinced they are by an NPC's words.
+
+There are four essential approaches to manipulation. To carry any weight, each approach requires evidence that your offer, statement, or trade is actually possible, and each approach has a general consequence for failing to follow through or otherwise getting caught:
+
+- **Deception** is an outright lie meant to convince. On a failed check, the target simply finds you unconvincing. Getting caught lying, however, will impose disadvantage to all future Manipulation attempts against the target.
+- **Intimidation** compels the target through the threat or act of violence. A failed check requires you to carry out your threat or suffer disadvantage on all future Manipulation attempts against the target. If the target survives the encounter, they will generally look for a way to get back at you, directly or indirectly, for any harm inflicted.
+- **Negotiation** trades one action for another. On a failed check, the target doesn't believe you have the means to carry out your end of the deal. If you succeed but fail to deliver, you suffer disadvantage on all future Manipulation attempts against the target. If they were particularly relying on your actions, they may seek additional recompense.
+- **Bribery** offers money or goods in exchange for action. On a failed check, the target is unconvinced that your offer is worth their time or risk. Even when successful, a wise target generally won't act until the bribe is delivered.
+  - The value required to bribe someone is unpredictable. To eyeball an amount, the GM should roll 3d6 to find the base bribe, then multiply that by a value commensurate with the social class or sheer chutzpah of the target. The higher the bribe, the more likely that it will be requested in currency, rather than goods.
+    - x $1-100 for the the destitute and desperate or the stable but poor.
+    - x $100-1,000 for the comfortably employed, the rich, or government/corporate employees.
+    - x $1,000-10,000 for minor corporate officers or anyone addressable as "Your Honor/The Honorable".
+    - x $10,000-100,000 for anyone who doesn't care about the money and just wants to make your life hard.
+    - x $100,000-1,000,000 for CEOs and potentates, who won't consider anything less than a retirement plan.
+
 ## Prior Jobs
+
+Your character may be about to start their first job, light on resources but free of debt and consequence. Or, they might be a seasoned criminal, caught in a sprawling web of dubious partnerships and vendettas. Most likely they're somewhere between those two extremes.
+
+When creating your character, decide how many prior jobs you've completed. The GM will impose a maximum number of prior jobs--two to four is a good place to start. For each prior job, roll on the following charts to determine the nature and outcome of the job. If you have a specific history in mind for your character, you may pick results from each table except for "1d4: How Did The Job Go?" and "1d20: How Did You Make Out?" rather than rolling. 
+
+**For each prior job your character has completed, your character owes one favor to another member of the criminal underworld.** These favors are in addition to any favors owed as a result of rolling on the prior jobs tables. Use the "Random Focus/Approach" table to determine the nature of the NPC to whom you owe your favor(s). Even if your character hasn't actively worked in years, word will eventually get around that they're back on the job--you should expect that the GM will have your debtors call in favors owed over the course of the game.
+
+### **Favors** 
+
+Favors and oaths are taken very seriously in the criminal underworld. Sometimes they're represented by physical tokens; more often, they're promised and cashed in among witnesses, backed by the power of professional peer pressure and communal obligation. If a prior job indicates that someone owes you, pick a Focus/Approach combination that represents the NPC and their relation to the prior job that earned you the favor. Alternatively, roll on the "Random Focus/Approach" table. Work with the GM to determine a name and general description for the character. You should expect to be able to cash in the favor during gameplay--material support during another job is generally a reasonable request, but accepting severe risks might require additional considerations, such as completing profitable side tasks or owing a favor in return.
+
+If a prior job indicates that you owe someone else a favor, expect that this NPC will turn up during gameplay and cash in what's owed. Requests with a high risk of injury, imprisonment, or death can be negotiated, but outright refusal immediately lowers your Professional Reputation in the NPC's Focus/Approach category by 3--should they survive to talk about it. Dead men might not talk, but an inconvenient corpse can generate its own problems.
 
 ### 1d6: Who Hired You?
 
@@ -183,13 +398,17 @@ Your character is not complete until you have an answer to these questions:
 | 17-18  |   Favors/Cyberware   |
 | 19-20  | Reputation/Cyberware |
 
-|  Category  |                         For each +1                          |                         For each -1                          |
-| :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|    Cash    | You gain $2,000. You earned more, but you've already spent some. | You owe $2,000. Debt could be owed to more than one group... |
-|    Gear    | Gain a weapon (and three reloads of ammo for it) or a piece of equipment. | You broke something important. The owner wants a replacement. |
-|   Favors   |            YOU are owed a favor. Roll from whom.             |                You OWE a favor. Roll to whom.                |
-| Reputation |              +1 Rep in a random field. Max +10.              |             -1 Rep in a random field. Minimum 0.             |
-| Cyberware  | You acquired an upgrade. Gain a cyberlimb, sense, or upgrade for free, or gain $2,000. | You lost a limb or sense. Replace it with a baseline prosthetic or live with the stump. |
+### Gains and Losses
+
+|    Category    |                         For each +1                          |                         For each -1                          |
+| :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|    **Cash**    | You gain $2,000. You earned more, but you've already spent some. | You owe $2,000. Debt could be owed to more than one group... |
+|    **Gear**    | Gain a weapon (and three reloads of ammo for it) or a piece of equipment. | You broke something important. You owe the former owner a replacement. |
+|   **Favors**   |            YOU are owed a favor. Roll from whom.             |                You OWE a favor. Roll to whom.                |
+| **Reputation** |              +1 Rep in a random field. Max +10.              |             -1 Rep in a random field. Minimum 0.             |
+| **Cyberware**  | You acquired an upgrade. Gain a cyberlimb, sense, or upgrade for free, or gain $2,000. | You lost a limb or sense. Replace it with a baseline prosthetic or live with the stump. |
+
+### Random Focus/Approach
 
 | Result (Roll 1d8 twice) | Contact Focus | Contact Approach |
 | :---------------------: | :-----------: | :--------------: |
@@ -198,184 +417,13 @@ Your character is not complete until you have an answer to these questions:
 |           5-6           |     Tech      |    Community     |
 |           7-8           |  Your Focus   |  Your Approach   |
 
-### **Favors** 
-
-Favors and oaths are taken very seriously in the criminal underworld. Sometimes they're represented by physical tokens; more often, they're promised and cashed in among witnesses, backed by the power of peer pressure and communal obligation. If a prior job indicates that someone owes you, pick a Focus/Approach combination that represents the NPC and their relation to the prior job that earned you the favor. Work with the GM to determine a name and general description for the character. You should expect to be able to cash in the favor during gameplay--material support during another job is generally a reasonable request, but accepting severe risks might require additional considerations, such as completing profitable side tasks or owing a favor in return.
-
-If a prior job indicates that you owe someone else a favor, expect that this NPC will turn up during gameplay and cash in what's owed. Requests with a high risk of injury, imprisonment, or death can be negotiated, but outright refusal immediately lowers your Professional Reputation in the NPC's Focus/Approach category by 3--should they survive to talk about it. Dead men might not talk, but an inconvenient corpse can generate its own stories...
-
-## Focus
-
-Select your primary Focus: **Combat**, **Social**, or **Tech**. Although you're capable of many other tasks, your Focus defines your main skillset.
-
-- **Combat Focus** - Your business is discriminate violence; dealing death while surviving the same.
-  - Divide 2 free stat points among Might, Grace, and Luck.
-  - Divide 4 free skill points among Perception, Shooting, Athletics, Brawling, and Swordplay.
-  - You don't have to spend an action to reload your weapons. Everyone else does.
-  - You have a +1d bonus to all attacks. You are considered to have all weapons as areas of expertise.
-  - You recognize weapons and armor. The GM will provide details (armor value, damage, etc.) when asked.
-- **Social Focus** - Your primary skillset is interpersonal; negotiation, manipulation, and coercion.
-  - Divide 2 free stat points among Charm, Lore, and Luck.
-  - Divide 4 free skill points among Perception, Tracking, Streetwise, Stealth, and Manipulate.
-  - You have all Manipulate approaches as areas of expertise. You can spend Manipulation areas of expertise on groups of people (Gangers, Corporates, Cops, etc.) and receive +1d on all rolls to interact with them.
-  - Reroll a failed Manipulate check once per session. The check must use a different approach than what failed.
-  - You start the game with 8 additional Professional Reputation points to distribute as you see fit.
-- **Tech Focus** - Your talents involve electronic, mechanical, or biological systems; building, fixing, or modifying them. 
-  - Divide 2 free stat points among Grit, Lore, and Luck. 
-  - Divide 4 free skill points among Technology, Streetwise, Driving, Medicine, and Manipulate.
-  - All applications of the Technology skill are considered an area of expertise for you. You can spend Technology areas of expertise on sub-categories of the skill's use (Electronics - Computers, or Gunsmithing - Rifles) and receive +1d on all rolls within that sub-category.
-  - You're familiar with modern technology. The GM will provide details (make, model, material, function) when asked. 
-
-## Approach
-
-Select your character's Approach--the means through which they apply their Focus. The combination of your Approach and Focus determines your starting Professional Reputation.
-
-- **Institutional** - You get things done by drawing on powerful formal institutions, legal or otherwise. Corporations, governments, law enforcement bodies, gangs, and organized crime syndicates are all examples of institutions.
-  - Combat/Institutional Examples: Cop, Corporate Security, Government Agent, Mob Enforcer, Ninja Clan Assassin
-  - Social/Institutional Examples: Attorney, Corporate Officer, Government Analyst, Private Investigator, 
-  - Tech/Institutional Examples: ?????
-- **Self-Reliance** - You can always count on #1. A self-reliant approach represents cultivating one's own talents rather than relying on the support of others. It's a lonely road, but you'll always see eye-to-eye with your boss.
-  - Combat/Self-Reliance Examples: Career Mercenary, Hired Muscle
-  - Social/Self-Reliance Examples: Social Media Influencer, Citizen Journalist, Actor/Performer
-  - Tech/Self-Reliance Examples: Street Doc, Mechanic, Armorer/Weaponsmith
-- **Community** - You draw strength from others like you. Communities can be based on geography, ethnicity, social status, interests and hobbies, common threats, politics and philosophies, or an infinite variety of other identities.
-  - Combat/Community Examples: Ganger, Cult Member, Guerilla, Insurgent
-  - Social/Community Examples: Fixer, Information Broker, Spy/Undercover Agent
-  - Tech/Community Examples: Hacker, ???
-
-## Reputation
-
-The nine combinations of Focus and Approach are a rough equivalent to the possible areas in which you can grow your reputation. Characters defined by the same Focus/Approach combination are more alike than not, although a beat cop and a corporate security officer might disagree strongly on that point. Focus/Approach combinations are game elements, not explicit categories recognized within the world; treat them as the map, not the territory.
-
-**Professional Reputation** within a Focus/Approach combination runs from a minimum of 0 (practically anonymous) to a maximum of 10 (internationally recognizable). Your Professional Reputation * 10 is the *percentage chance* that an NPC involved in or adjacent to the criminal underworld through which you move has heard of your exploits.
-
-Most people do not share your life riding along the ragged edge of disaster. To determine your recognition among the rest of the population, you have a General Reputation. Your **General Reputation** is the sum of all your individual Professional Reputations. This total is the *percentage chance* that an NPC uninvolved in the world of professional criminals has heard of you. If this is the case, the NPC is likely to react with some apprehension, as you are a notorious career criminal and they are not.
-
-You start with a Professional Reputation of 2 in all areas matching your Focus and all areas matching your Approach. In your specific Focus/Approach combination, you start with a Professional Reputation of 4. Your Professional Reputation can be altered by Prior Jobs before the game begins. During gameplay and between jobs, the GM may apply changes to your Professional Reputations based on your actions and the actions of your crew.
-
-*Example: The starting Professional and General Reputations of Mari, a Social Focus/Community Approach character with no prior jobs.*
-
-| General Rep: 12% | Institutional | Self-Reliant | Community |
-| :--------------: | :-----------: | :----------: | :-------: |
-|    **Combat**    |   **0/10**    |   **0/10**   | **2/10**  |
-|    **Social**    |   **2/10**    |   **2/10**   | **4/10**  |
-|     **Tech**     |   **0/10**    |   **0/10**   | **2/10**  |
-
-## Stats
-
-Each stat ranges from 1 (pitiful) to 10 (human pinnacle). Human average in a stat is 5. Divide **30 additional points** among your stats:
-
-- Might:  How much force can you muster?
-  - Might contributes to melee damage, brute lifting/carrying, some athletic efforts, and some means of intimidation.
-- Grace: How deft are you?
-  - Grace contributes to avoiding physical harm, combat accuracy, unaugmented driving, 
-- Grit: How long can you endure?
-- Charm: How convincing are you?
-- Lore: How much do you remember? education, teaching, 
-- Luck: How lucky are you?
-  - Luck is a pool of floating Advantages. You can apply them before you roll to cancel out Disadvantages or to give yourself additional Advantages up to the usual maximum of +3d. You must announce that you're spending Luck before you roll your dice.
-
-Each stat starts with a number of free points in it based on the power level of the game. You should decide on this power level in a conversation between the players and the GM before the game starts. 
-
-- **Gutterpunk Trash**: Each stat starts with **0 free points**. Your character is merely normal, for better or worse.
-- **Cyberpunk Standard**: Each stat starts with **1 free point.** This is the default assumption used in these rules.
-- **Dark Future Heroics**: Each stat starts with **2 free points**. Your character is meaningfully stronger than average.
-
-You can't start the game with a stat higher than 10 or lower than the stat's free starting points. While severe physical or mental trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values without the use of cyberware. Make sure you're happy with your stats before gameplay begins.
-
-### Exotic Entities
-
-If your preferred cyberpunk setting features non-human player characters--replicants, androids, aliens, elves, etc.--you can represent their extraordinary capabilities by exchanging two stat points during character creation for one permanent advantage on a specific type of roll. If you wanted to play a character with extraordinary hearing, for example, you could exchange two stat points (leaving you with 28 to spend) for one advantage on all Perception checks made to hear something. Alternatively, you could accept a permanent disadvantage on all checks using a certain skill in exchange for one additional stat point to spend during character creation. Discuss your ideas with the GM first--these modifications are an option, not a default, and these examples are only suggestions, not standards for universal comparison.
-
-## Skills
-
-Skill ranks range from 0 (untrained) to 10 (practiced expert). Divide 30 points among your skills.
-
-- Ranks 1, 2, and 3 each cost **one skill point**.
-- Rank 4 costs **two skill points**. At Rank 4, gain +1d on all uses of this skill.
-- Ranks 5, 6, and 7 each cost **one skill point**.
-- Rank 8 costs **two skill points**. At Rank 8, gain an additional +1d on all uses of this skill (total +2d).
-- Ranks 9 and 10 each cost **two skill points**.
-- In total, raising a skill from Rank 0 to Rank 10 costs **14 skill points**.
-
-|  Skill Rank  | Total Cost to Raise from Rank 0 |
-| :----------: | :-----------------------------: |
-|    Rank 1    |          1 skill point          |
-|    Rank 2    |         2 skill points          |
-|    Rank 3    |         3 skill points          |
-| Rank 4 (+1d) |         5 skill points          |
-|    Rank 5    |         6 skill points          |
-|    Rank 6    |         7 skill points          |
-|    Rank 7    |         8 skill points          |
-| Rank 8 (+2d) |         10 skill points         |
-|    Rank 9    |         12 skill points         |
-|   Rank 10    |         14 skill points         |
-
-Skills marked with with an "(C)" are **common**; everyone gains experience in them just by growing up in a society. Common skills start with **two free points**. 
-
-### Areas of Expertise
-
-**You gain an area of expertise in a skill at ranks 1, 3, 6, and 10.** Each skill use within your area of expertise is rolled using the full value of the skill. Using a skill outside your areas of expertise cuts your total stat + skill value in half (rounded down).
-
-*Example: Mika's Shooting skill is 2 at character creation. She selects "shotguns" as her area of expertise, and will roll 1d10 + Grace + Shooting whenever she fires a shotgun, or 1d10 + half her Grace + half her Shooting skill if she fires any other kind of weapon. During the game, she raises her Shooting skill to 7. Mika has two additional areas of expertise in Shooting, which she gained at ranks 3 and 6. Mike has selected "rifles" and "pistols"; when she fires a shotgun, rifle, or pistol, she'll roll 1d10 + Grace + Shooting. When she fires any gun that isn't a shotgun, rifle, or pistol, she'll roll 1d10 + half her Grace + half her Shooting skill.*
-
-### Skill List
-
-| Skill          | Stat               | Description/Uses                                             | Areas of Expertise                                           |
-| -------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Athletics (C)  | Might or Grace     | Making it harder to get shot or stabbed. Use Might for swimming, climbing and leaping; use Grace for balancing and acrobatics. | Athletic specialties (swimming, climbing, leaping, balancing, acrobatics, etc.) |
-| Brawling       | Might              | Martial arts, boxing, or the brutal simplicity of old-fashioned chin music. Defending against the same. | Special. See below.                                          |
-| Driving        | Grace or Lore      | Use Grace for physical controls; use Lore to pilot vehicles with a cybernetic interface. | Types of vehicles (car, motorcycle, speedboat, hovercraft, helicopter, tank, drone, etc.) |
-| Manipulate (C) | Charm **and** Lore | Convincing people to do what you want. Different methods have different consequences; see below. | Methods of manipulation (Bribery, Deception, Persuasion, Intimidation) |
-| Medicine       | Lore               | Knowledge and application of medical technqiues and concepts. Used for combat first aid. | Types of medicine (EMS, surgery, disease, poisons and toxins) |
-| Perception (C) | Luck               | Noticing important things near you, like dropped keys, weird smells, or landmines. | Methods of observation (visual, auditory, olfactory, touch, electronic surveillance, etc.) |
-| Shooting       | Grace              | Hitting targets with fired or thrown ranged weapons.         | Types of ranged weapons (pistol, rifle, shotgun, SMG, rocket, grenade launcher, etc.) |
-| Stealth        | Grace or Lore      | Use Grace for remaining inconspicuous to living creatures. Use Lore against digital sensors. | Stealth within a context (crowds, cities, driving, digital networks,etc.) |
-| Streetwise (C) | Lore               | Knowing a location like a native. Who's who, what's dangerous, where to get a good burrito. | Individual places the size of a city district.               |
-| Swordplay      | Grace              | Effective use of any kind of melee weapon, including cyberlimbs. Defending against the same. | Types of melee weapons (swords, clubs, knives, axes, hammers, cyberlimbs, implanted cyberweapons) |
-| Technology     | Lore               | Knowledge of and ability to use, build, or manipulate technologies. Used to craft equipment. | Areas of tech (electronics, cybertech, inorganic chemistry, drugs, gunsmithing, etc.) |
-| Tracking       | Lore               | Following the trail of people, animals, vehicles, or data.   | Tracking in terrain (Urban, Forest, Tundra, Social Media, Databases, etc.) |
-
-#### Special Skill Rules
-
-##### Brawling
-
-The breadth of your martial arts knowledge is determined by **Style**, and the depth of your knowledge is determined by **Focus**. When you put your first skill point into Brawling, you begin with Style 1 and Focus 1 and must immediately dedicate your first area of expertise to increase either Style or Focus by an additional point.
-
-When you gain an additional area of expertise in Brawling, you must spend it to increase either your Style or Focus by one point. For example, at Brawling 6, you could have split your three areas of expertise into Style 3/Focus 2, or you could simulate an extreme focus on a single martial art as Style 1/Focus 4. You can spend a month in dedicated training to shift a point of Style to Focus, or vice versa. You cannot reduce either Style or Focus below 1.
-
-When attacking or defending against a Brawling attack from another character for the first time, both fighters roll **1d6+Style**. Whomever rolls highest has the technical edge and gains a number of advantages equal to their **Focus** to all Brawling attack and defense rolls made against this particular opponent. You are encouraged to yell things like "YOUR STEEL TIGER STYLE IS NO MATCH FOR MY DIESEL BOAR STANCE."
-
-You automatically win Style checks against nameless NPCs. Regardless of prior outcomes, reroll the Style check at the start of a new encounter with the same opponent.
-
-*Example: Morgan and Snake face off against each other, divested of all their guns and knives. Morgan, with a Brawling skill of 6 granting him three areas of expertise, has very broad training: Style 4, Focus 1. Snake has Brawling 6 as well, but has focused all of his areas of expertise into a single style: Style 1, Focus 4. Morgan charges Snake, and the two fighters both roll to see who has the edge. Morgan rolls 1d6+4. Snake rolls 1d6+1. If Morgan wins the roll, he'll enjoy a single advantage in all his attack and defense rolls involving Brawling against Snake. If Snake wins the roll, he'll enjoy **four** advantages in all his attack and defense rolls involving Brawling against Morgan.*
-
-##### Manipulate
-
-When you manipulate someone, it's more than merely making a request; you are attempting to convince or compel them to speak or act. 
-
-Attempting to manipulate someone uses the speaker's Manipulate skill + Charm stat. Resisting a manipulation attempt uses the target's Manipulate skill + Lore stat. NPCs cannot attempt manipulation skill checks against PCs; while NPCs can proffer whatever threats or offers the story requires, it is always up to the player to decide how convinced they are by an NPC's words.
-
-There are four essential approaches to manipulation. To carry any weight, each approach requires evidence that your offer, statement, or trade is actually possible, and each approach has a general consequence for failing to follow through or otherwise getting caught:
-
-- **Deception** is an outright lie meant to convince. On a failed check, the target simply finds you unconvincing. Getting caught lying, however, will impose disadvantage to all future Manipulation attempts against the target.
-- **Intimidation** compels the target through the threat or act of violence. A failed check requires you to carry out your threat or suffer disadvantage on all future Manipulation attempts against the target. If the target survives the encounter, they will generally look for a way to get back at you, directly or indirectly, for any harm inflicted.
-- **Negotiation** trades one action for another. On a failed check, the target doesn't believe you have the means to carry out your end of the deal. If you succeed but fail to deliver, you suffer disadvantage on all future Manipulation attempts against the target. If they were particularly relying on your actions, they may seek additional recompense.
-- **Bribery** offers money or goods in exchange for action. On a failed check, the target is unconvinced that your offer is worth their time or risk. Even when successful, a wise target generally won't act until the bribe is delivered.
-  - The value required to bribe someone is unpredictable. To eyeball an amount, the GM should roll 3d6 to find the base bribe, then multiply that by a value commensurate with the social class or sheer chutzpah of the target. The higher the bribe, the more likely that it will be requested in currency, rather than goods.
-    - x $1-100 for the the destitute and desperate or the stable but poor.
-    - x $100-1,000 for the comfortably employed, the rich, or government/corporate employees.
-    - x $1,000-10,000 for minor corporate officers or anyone addressable as "Your Honor/The Honorable".
-    - x $10,000-100,000 for anyone who doesn't care about the money and just wants to make your life hard.
-    - x $100,000-1,000,000 for CEOs and potentates, who won't consider anything less than a retirement plan.
-
 ## Starting Cash and Gear [TODO]
 
 asdf
 
 ## Character Improvement
 
-After you complete a run, the GM will award each player a number of points to spend improving their character's skills; this represents practice and training accomplished during downtime between jobs.
+After you complete a run, the GM will award each player a number of points to spend improving their character's skills; this represents training pursued during downtime between jobs.
 
 # Equipment
 
