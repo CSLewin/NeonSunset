@@ -795,13 +795,13 @@ While you're executing a hack, you're free to perform other actions so long as t
 
 Getting a legitimate **account** on a system containing your desired information or device access is hugely beneficial. While a lack of legitimate access won't stymie a skilled hacker, even a basic user account offers major insight into the workings of a system. Admin accounts are even more useful, and there's virtually nothing more effective than gaining physical access to a computer in order to (literally or figuratively) crack it open. User accounts are gained as easily as signing up for a service or posing as an employee. Admin accounts are rare, but there's always at least one person who has one. Gaining physical access to a computer system may be an entire job on its own.
 
-### Success and Failure
+### Success
 
 A successful hack for access gives control to the hacker for 1d10 rounds before the system regains control. Access to a device allows the hacker to perform any normal function of that device, to shut down the device, or to insert destructive code that will cause the device to strain itself to the point of breakage 1d10 rounds after the command is given.
 
 A successful hack for information has no relevant duration; long-term monitoring of a system is not possible without a legitimate account. If a hacker wants to delete information from a system, a hack for access is required.
 
-#### Failing a Hard Hack
+### Failing a Hard Hack
 
 Failing a hack using Hard methods inflicts a number of d6s in damage equal to the number of disadvantages suffered on the hacking roll (minimum 1d6).
 
@@ -820,7 +820,7 @@ The base health of a computer can be improved by installing durable liquid metal
 |       50        |     $16,000     |  Full Desk + Server Tower  |
 |       60        |     $32,000     | Console + Full Server Room |
 
-#### Failing a Soft Hack
+### Failing a Soft Hack
 
 *TODO, but you reveal info about you to your target.*
 
