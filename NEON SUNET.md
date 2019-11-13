@@ -756,28 +756,73 @@ If you have headware, you can use your brain to do anything a smartphone could d
 
 ## How_2_Hacking
 
-Hacking means using a networked computer to gather information or gain control of an electronic device--usually information or a device that someone else doesn't want you to access. This can be accomplished using a traditional desktop, a modular laptop computer, or through a headware/AMP system.
+Hacking means using any networked computer to gather information or gain control of an electronic device--usually information or a device that someone else doesn't want you to access.
 
-The weakest link in any security system is human. It's often easier to trick, bribe, or apply rubber-hose cryptanalysis in order to extract data from someone than it is to actually hack a system. Further, some very rare networks are rendered virtually unhackable due to their difficulty of access. Physical and information security is a balance between defense and convenience; a laptop embedded in a concrete sphere, wrapped in a faraday cage, and sunk to the bottom of the Mariana Trench is extremely secure, but rather inconvenient to access. 
-
-Most systems strike a more reasonable balance, and a prospective hacker is advised to hone their social skills--or befriend someone who has--as well as their technical expertise; some common sense in the service of recognizing unfavorable targets is also useful. 
+A tremendous amount of "hacking" doesn't require any illegal activity. There's a breathtaking amount of information freely available on the Internet, and a series of simple Google searches isn't going to trigger many alarms. Likewise, the weakest link in any security system is human. It's often easier to trick, bribe, or apply rubber-hose cryptanalysis in order to extract data from someone than it is to actually hack a system. Further, some very rare networks are rendered virtually unhackable due to their difficulty of access. Physical and information security is a balance between defense and convenience; a laptop embedded in a concrete sphere, wrapped in a faraday cage, and sunk to the bottom of the Mariana Trench is extremely secure, but rather inconvenient to access. Most systems strike a more reasonable balance, and a prospective hacker is advised to hone their social skills--or befriend someone who has--as well as their technical expertise; some common sense in the service of recognizing unfavorable targets is also useful. 
 
 Yet those who dare, win. If they say the sysadmin is incorruptible and the server can't be reached unless you can gargle neurotoxin, that just means nobody's done it yet.
 
-### Requirements
+### Procedure
 
-Hacking requires **Intent, Access, and Preparation.**
-The outcome of the hack is described by **DC: Duration and Consequence.**
+All hacking attempts are performed with a roll of **1d10 + Lore + Technology**.
 
-**[TODO: WRITE THE HARD/SOFT MECHANICS FIRST, THEN WRITE THE FLUFF TO JUSTIFY IT.]**
+Decide if you want **Access** or **Information**. Then, decide if you want to attempt the hack using **Hard** or **Soft** methods.
 
-Probably keep a split between hard/soft and info/device. It charts well, and simplifies hacking to Target (Info or Access) and Method (Hard or Soft).
+- **Hard** methods are very fast, but inefficient. If you're using a physical computer, you risk damaging the hardware. If you're using headware, you risk damage to your health. You can mitigate this damage by using **backup hardware** or injecting units of **CSF coolant**.
+  - The base time required to execute a Hard hack is 1d10 rounds.
+  - Using Hard methods in pursuit of Access has a base difficulty of TN 10.
+  - Using Hard methods in pursuit of Information has a base difficulty of TN 15.
 
-- Time is the immutable exchange. You can't get more time.
-- Hard is fast--which makes it inefficient, but hard to stop and easy to notice. Hard risks damage. 
-  - You can buy protection from damage and exposure (backup hardware, ampoules of CSF coolant, a fake license)
-- Soft is slow--which makes it efficient, but easy to stop and hard to notice. Soft risks exposure.
-  - You can redline your gear to go faster (at a skill penalty)
+- **Soft** methods are slow, but efficient. No matter what kind of device you're using, you risk exposing information about yourself--your location, your goals, and your personal identity. You can protect yourself from exposure by **hacking from an unimportant location** or employing a **fake identity**.
+  - The base time required to execute a Soft hack is 4 hours.
+  - Using Soft methods in pursuit of Access has a base difficulty of TN 15.
+  - Using Soft methods in pursuit of Information has a base difficulty of TN 10.
+
+While you're executing a hack, you're free to perform other actions so long as the computer or headware you're using to hack isn't used for any other task or destroyed.
+
+**Speed Effects on Hacking**
+
+|  Method  |    -3d    |     -2d      |    -1d     |  Baseline   |    +1d     |    +2d     |    +3d     |
+| :------: | :-------: | :----------: | :--------: | :---------: | :--------: | :--------: | :--------: |
+| **Hard** |  1 round  | 1d6/2 rounds | 1d6 rounds | 1d10 rounds | 2d6 rounds | 3d6 rounds | 4d6 rounds |
+| **Soft** | 5 minutes |  30 minutes  |  2 hours   |   4 hours   |  8 hours   |  24 hours  |  48 hours  |
+
+**Security/Access Effects on Hacking**
+
+|       -3d        |        -2d        |          -1d           |          Baseline          |     +1d      |      +2d      |       +3d       |
+| :--------------: | :---------------: | :--------------------: | :------------------------: | :----------: | :-----------: | :-------------: |
+| Corporate System | Government System | Organized Crime System | Private Citizen/No Account | User Account | Admin Account | Physical Access |
+
+Getting a legitimate **account** on a system containing your desired information or device access is hugely beneficial. While a lack of legitimate access won't stymie a skilled hacker, even a basic user account offers major insight into the workings of a system. Admin accounts are even more useful, and there's virtually nothing more effective than gaining physical access to a computer in order to (literally or figuratively) crack it open. User accounts are gained as easily as signing up for a service or posing as an employee. Admin accounts are rare, but there's always at least one person who has one. Gaining physical access to a computer system may be an entire job on its own.
+
+### Success and Failure
+
+A successful hack for access gives control to the hacker for 1d10 rounds before the system regains control. Access to a device allows the hacker to perform any normal function of that device, to shut down the device, or to insert destructive code that will cause the device to strain itself to the point of breakage 1d10 rounds after the command is given.
+
+A successful hack for information has no relevant duration; long-term monitoring of a system is not possible without a legitimate account. If a hacker wants to delete information from a system, a hack for access is required.
+
+#### Failing a Hard Hack
+
+Failing a hack using Hard methods inflicts a number of d6s in damage equal to the number of disadvantages suffered on the hacking roll (minimum 1d6).
+
+If the failed Hard hack was attempted using headware, this damage is inflicted directly to the hacker as their brain overheats. Damage can be mitigated using injections of **cerebrospinal fluid coolant (CSFC)**. Each unit of CSFC costs $500 and reduces incoming damage by 1d6 before the damage is rolled. Injecting a unit of CSFC takes an action. A human can contain a number of units of CSFC equal to their Grit stat, and units of CSFC are naturally excreted (used or not) after 24 hours. Injecting more units of CSFC than the body can support is very dangerous, reducing Charm and Lore stats by 1 for each unit beyond the body's capacity. The reduction to Charm and Lore requires a week of hospital treatment to reverse by 1d6 points; any reduction not cured by hospital treatment is permanent brain damage.
+
+If the failed Hard hack was attempted using an external computer, the damage is inflicted to the computer itself as portions of the hardware overheat. A baseline computer has 10 Health. A set of **disposable heatsinks** costs $500 and reduces incoming damage by 1d6 before the damage is rolled, after which the set of heatsinks is destroyed. Installing a set of heatsinks takes a single round. If a computer's Health is reduced to 0 by damage from a failed Hard hack, the device catastrophically overheats and bursts into flame. 
+
+The base health of a computer can be improved by installing durable liquid metal cooling and other redundant systems, but this increases the size of the computer and quickly renders it difficult to transport.
+
+| Computer Health | Additional Cost |      Approximate Size      |
+| :-------------: | :-------------: | :------------------------: |
+|       10        |       $0        |   Slim Laptop or Tablet    |
+|       20        |     $2,000      |         Briefcase          |
+|       30        |     $4,000      |      Desktop Computer      |
+|       40        |     $8,000      |     Entire Office Desk     |
+|       50        |     $16,000     |  Full Desk + Server Tower  |
+|       60        |     $32,000     | Console + Full Server Room |
+
+#### Failing a Soft Hack
+
+*TODO, but you reveal info about you to your target.*
 
 #### Intent
 
@@ -910,7 +955,7 @@ Noise: Quiet, Room, Floor, Building, Block, Mile
 	-noise = -damage OR -range OR better concealment
 	+noise = +damage OR +range OR worse concealment (THE LOUDENER)
 
-TODO
+# TODO
 
 - Hacking
 - Cyberware
