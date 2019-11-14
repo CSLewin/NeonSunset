@@ -788,7 +788,7 @@ Decide if you want **Access** or **Information**. Then, decide if you want to at
   - Using Soft methods in pursuit of Access has a base difficulty of TN 15.
   - Using Soft methods in pursuit of Information has a base difficulty of TN 10.
 
-While you're executing a hack, you're free to perform other actions so long as the computer or headware you're using to hack isn't used for any other task or destroyed.
+While you're executing a hack, you're free to perform other actions so long as the computer or headware you're using to hack isn't used for another task or destroyed.
 
 **Speed Effects on Hacking**
 
@@ -799,9 +799,9 @@ While you're executing a hack, you're free to perform other actions so long as t
 
 **Security/Access Effects on Hacking**
 
-|       -3d        |        -2d        |          -1d           |          Baseline          |     +1d      |      +2d      |       +3d       |
-| :--------------: | :---------------: | :--------------------: | :------------------------: | :----------: | :-----------: | :-------------: |
-| Corporate System | Government System | Organized Crime System | Private Citizen/No Account | User Account | Admin Account | Physical Access |
+|       -3d        |        -2d        |          -1d           |                 Baseline                 |     +1d      |      +2d      |       +3d       |
+| :--------------: | :---------------: | :--------------------: | :--------------------------------------: | :----------: | :-----------: | :-------------: |
+| Corporate System | Government System | Organized Crime System | Public System/Private Citizen/No Account | User Account | Admin Account | Physical Access |
 
 Getting a legitimate **account** on a system containing your desired information or device access is hugely beneficial. While a lack of legitimate access won't stymie a skilled hacker, even a basic user account offers major insight into the workings of a system. Admin accounts are even more useful, and there's virtually nothing more effective than gaining physical access to a computer in order to (literally or figuratively) crack it open. User accounts are gained as easily as signing up for a service or posing as an employee. Admin accounts are rare, but there's always at least one person who has one. Gaining physical access to a computer system may be an entire job on its own.
 
@@ -834,13 +834,9 @@ The base health of a computer can be improved by installing durable liquid metal
 
 *TODO, but you reveal info about you to your target.*
 
-#### Intent
+Searching for information leaves traces. Search histories, access patterns, metadata--all fodder for expert Oversight Systems to construct profiles of anonymized users based on what-if methodologies and flag anyone within a few steps of a particularly concerning archetype, such as "terrorist", "stalker", or "political dissident".
 
-Is your goal Information or Action?
-
-Searching for information leaves traces. Search histories, access patterns, metadata--all fodder for roving expert Oversight Systems dedicated to constructing theoretical profiles of anonymized users based on what-if methodologies, then flagging anyone within a few steps of matching a particularly concerning archetype. Oversight Systems are just as good at catching budding terrorists and stalkers as they are at highlighting activists and dissidents.
-
-When you search for information on a subject relating to a job, you wager that you can find data to answer your questions before the system learns about you. Normally, this doesn't matter--nobody cares if you're googling a celebrity's birthdate to settle a bet. If you're looking up municipal sewer blueprints AND you're researching thermite recipes AND you're looking up the address of a bank branch manager, there's a chance an Oversight System is going to get nosy.
+When you search for information on a subject relating to a job, you wager that you can find data to answer your questions before the system learns about you. Normally, this doesn't matter--nobody cares if you're googling a celebrity's birthdate to settle a bet. If you're looking up municipal sewer blueprints AND you're researching thermite recipes AND you're looking up the address of a bank branch manager, there's a chance an Oversight System is going to get curious.
 
 For each question or body of knowledge you ask for (neighborhood sewer plans, recipes for decent thermite, nonpublic personal information), spend four hours of in-game effort and select one of the following data points, then roll 1d10+Lore+Technology. 
 
@@ -848,34 +844,6 @@ For each question or body of knowledge you ask for (neighborhood sewer plans, re
 - Your civilian license (or lack of one), including name, address, photo, and official records (education, employment, military, medical, and criminal)
 - Your unique hardware configuration
 - Your true, holistic search topic
-
-#### Access
-
-Do you need to physically jack into a device or network, or can you remotely access it over a network?
-
-Most information exists on some kind of networked device; only very sensitive data is airgapped--completely removed from networked access--or on devices that require a user's physical presence. Corporate network security might have a fierce response, but they still need employees in the Riyadh office to have ready access to the London server farm, which gives a hacker an opportunity. Inherently dangerous, valuable, or obscure data--government military secrets, corporate laboratory research, or truly niche porn--are all examples of information that could require physical access--which means finding a way into that bunker, orbital laboratory, or loft apartment and contending with on-site security.
-
-In contrast, manipulating networked devices--doors, elevators, machinery, and some vehicles and drones--almost always requires proximity. Highly secure devices--usually things that could kill you, intentionally or not--are often airgapped and require a direct interface through a universal data cable.
-
-That said, even airgapped computers and devices can be remotely compromised, although this requires a level of dedication and bespoke construction of intrusion hardware such that generalizing the technique is virtually impossible...but it's still enough to generate paranoia.
-
-#### Preparation
-
-Did you take the time to buy or write your own exploit or search agent, are you whipping one up as fast as you can, or are you running your gear or your brain hot to handle it manually?
-
-### The Check
-
-Skill Used: Technology (Lore).
-
-### Outcomes
-
-#### Duration
-
-How long will it take to assemble your Information? How long will your Action last? What are your options for reducing or extending that time?
-
-#### Consequence
-
-Who noticed your search, and what did they learn? How'd your gear--or your brain--handle the hack?
 
 ### Other Clever Ideas
 
