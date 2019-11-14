@@ -583,7 +583,7 @@ Anyone capable of Combat Magic can identify another spellcaster by staring into 
 
 To maintain genre conventions, it is the author's suggestion that non-combat magic--if it exists--remain incapable of time travel, teleportation, or the resurrection of the dead. Your call.
 
-## Modifying Weapons [TODO]
+## Modifying Weapons
 
 It is possible to modify a weapon's performance. Begin with a base weapon listed in the chart above. These represent the most common configuration of a weapon of that type, available in a vast array of colors, materials, and brands.
 
@@ -620,9 +620,7 @@ A + or - indicates one step up or down on that category's units. A weapon may mo
 - -noise = -damage OR -range OR better concealment
 - +noise = +damage OR +range OR worse concealment (THE LOUDENER)
 
-### Cased Ammunition and Heatblocks
-
-### Bullets and Variant Cased Ammunition
+### Variant Ammunition
 
 Most guns fire cased ammunition--bullets and shells as you know them. When using cased ammunition, track each bullet (probably on scratch paper). You'll never be surprised when you run out of ammunition. 
 
@@ -638,9 +636,11 @@ Any weapon that fires cased ammunition can use these variant ammunition types. C
 - Slugs: +1d6 damage, one target only. Worse range than a rifle, but often easier to acquire than a new gun. Only usable in shotguns.
 - Dragonsbreath: As incendiary cased ammunition, but ignites everything in a 30m line. Only usable in shotguns.
 
-**Heatblock:** A miniaturized combination of plasma cutter and coilgun, heatblock weapons accept a small brick of metal in place of cased ammunition. Aerodynamic slivers are shaved off the block by plasma arc and magnetically accelerated through the barrel, while waste heat is recycled into liquid metal thermal batteries. If allowed to cool after firing, the weapon can produce thousands of shots from a single block of mundane metal. Sustained rapid fire, however, can overheat the weapon and will automatically lock the trigger until the gun has cooled. Users can manually vent heat into the block, eject it, and swap in a cold block as fast as a conventional weapon could accept a fresh magazine. Civilian possession of heatblock weapons is generally illegal. Unsurprisingly, black market instructions for the creation of heatblock weapons have been available for years.
+### **Heatblocks** [TODO: CLEANUP]
 
-- Mechanics: When using a heatblock weapon, don't track individual shots. At the end of a round in which a heatblock weapon was fired in semiauto, burst fire, or full auto mode, roll a number of d6s equal to the weapon's damage dice. Roll one additional d6 if the weapon was used for burst fire, or two additional d6s if the weapon was used for full auto. If any of the dice rolled show a six, the weapon has overheated and cannot be fired for a number of rounds equal to the weapon's damage dice (example: 3d6 damage, 3 rounds to cool down). Alternatively, the weapon can be readied to fire again immediately if the overheated block is ejected and a fresh block is inserted. Note that ejecting an overheated block drops a near-molten lump of metal at the user's feet.
+A miniaturized combination of plasma cutter and coilgun, heatblock weapons accept a small brick of metal in place of cased ammunition. Aerodynamic slivers are shaved off the block by plasma arc and magnetically accelerated through the barrel, while waste heat is recycled into liquid metal thermal batteries. If allowed to cool after firing, the weapon can produce thousands of shots from a single block of mundane metal. Sustained rapid fire, however, can overheat the weapon and will automatically lock the trigger until the gun has cooled. Users can manually vent heat into the block, eject it, and swap in a cold block as fast as a conventional weapon could accept a fresh magazine. Civilian possession of heatblock weapons is generally illegal. Unsurprisingly, black market instructions for the creation of heatblock weapons have been available for years.
+
+- Mechanics: When using a heatblock weapon, don't track individual shots. At the end of a round in which a heatblock weapon was fired in semiauto, burst fire, or full auto mode, roll a number of d6s equal to the weapon's damage dice. Roll one additional d6 if the weapon was used for burst fire, or two additional d6s if the weapon was used for full auto. If any of the dice rolled show a six, the weapon has overheated and cannot be fired for a number of rounds equal to the weapon's damage dice (example: 3d6 damage, 3 rounds to cool down). Alternatively, the weapon can be readied to fire again immediately if the overheated block is ejected and a fresh block is inserted. Note that ejecting an overheated block drops a molten lump of metal at the user's feet.
 
 ## Melee Attacks [TODO: SERIOUS RECONSIDERATION]
 
