@@ -537,7 +537,7 @@ As long as an opponent is aware of you and close enough to strike you in melee c
 |         Short         | TN 15 | TN 20  | TN 25  |  TN 30  |    --    |    --    |    --    |
 |        Medium         | TN 15 | TN 15  | TN 20  |  TN 25  |  TN 30   |    --    |    --    |
 |         Long          | TN 15 | TN 10  | TN 10  |  TN 15  |  TN 20   |  TN 25   |  TN 30   |
-|        Extreme        | TN 15 | TN 15  | TN 15  |  TN 20  |  TN 20   |  TN 25   |  TN 30   |
+|        Extreme        | TN 20 | TN 15  | TN 15  |  TN 20  |  TN 20   |  TN 25   |  TN 25   |
 
 |   Weapon Type    |         Damage         |  Range  | Conceal | Rate of Fire | Capacity |  Noise   | License Required | Social Carry |
 | :--------------: | :--------------------: | :-----: | :-----: | :----------: | :------: | :------: | :--------------: | :----------: |
@@ -587,28 +587,33 @@ To maintain genre conventions, it is the author's suggestion that non-combat mag
 
 It is possible to modify a weapon's performance. Begin with a base weapon listed in the chart above. These represent the most common configuration of a weapon of that type, available in a vast array of colors, materials, and brands.
 
-- damage: 3d6 = 0 (-1 under, +1 over); 1d6, 2d6, 3d6, 4d6, 5d6, 6d6 max (cannot jump to 8d10)
-  - +damage = +noise
-  - -damage = -noise
-- range: short = 0 (-1 under, +1 over); melee, close, short, medium, long, extreme
-  - +range = either -damage OR +noise
-- conceal: jacket = 0 (+1 under); pocket, jacket, coat, not possible
-  - better concealment (smaller gun) = -damage OR -range OR -ammo (what does this mean?)
-  - worse concealment (larger gun) = +damage OR +range OR +ammo
-- RoF: single = 0 (+2 over); single, semi, burst, auto
-  - +RoF = -damage OR -range
-  - -RoF = +damage OR +range
-- Ammo: Cased = 1, Heatblock = 2
-  - +ammo (???) = worse concealment
-- Noise: Room = 0 (+2 under); quiet, room, floor, building, block, mile
+Weapons have damage, range, concealment, rate of fire, ammo type, and noise categories. You can modify all of these qualities. Weapon modification isn't hard, but extensive changes get complicated quickly. Note that all weapon modification or the possession of a modified weapon is illegal.
 
-License: 
+Modifying a weapon is a **TN 10 Lore+Technology check**. Each subsequent modification to the weapon increases the TN by 5. The first modification costs $500. Each subsequent modification doubles that cost. Failing the check to modify a weapon eats the cash in repair fees if you want to repair your otherwise useless weapon.
 
-- Civilian 1-3 (Thrown 0, Pistol 3, Bow 2, Shotgun 3, XBow 3, Melee: Small -3/Hand -3/Large -2/Powered 1)
-- Professional 4-6 (SMG 5, Hunting Rifle 5)
-- Military 7+ (Rifle 9, Sniper Rifle 8, Portable Rocket 8, Grenade Launcher 7)
+Modifications that would increase a weapon quality above a listed maximum value or below a minimum value are not possible. Modifications must be implemented one change at a time.
 
-Social Carry: Thrown weapons, Small/Hand Melee, Pistols
+A + or - indicates one step up or down on that category's units. A weapon may modified to swap from using cased ammunition to heatblock technology or vice versa. 
+
+Damage: (min) 1d6/2d6/3d6/4d6/5d6/6d6 (max)
+	+damage = +noise. Also, either -range OR worse concealment.
+	-damage = -noise. Also, either +range OR better concealment
+
+Range: (min) Melee/Close/Short/Medium/Long/Extreme (max)
+	+range = +noise OR -damage OR worse concealment
+	-range = -noise OR -damage OR better concealment
+
+Concealment: (min) Pocket/Jacket/Coat/Not Possible (max)
+	better concealment (smaller gun) = -damage OR -range
+	worse concealment (larger gun) = +damage OR +range
+
+Rate of Fire: (min) Semiauto, Burst, Full Auto (max)
+	+RoF = -damage OR -range
+	-RoF = +damage OR +range
+
+Noise: (min) Quiet, Room, Floor, Building, Block, Mile (max)
+	-noise = -damage OR -range OR better concealment
+	+noise = +damage OR +range OR worse concealment (THE LOUDENER)
 
 ### Cased Ammunition and Heatblocks
 
@@ -640,7 +645,7 @@ Opposed rolls.
 
 - Defender has two options: Block/Parry or Dodge.
 
-  - Block/Parry: Roll 1d10+Grace+Swordplay or 1d10+Might+Brawling to defend against the same. Brawling can be used to defend against swordplay if the defender has at least one cyberlimb. 
+  - Block/Parry: Roll 1d10+Grace+Swordplay or 1d10+Might+Brawling to defend against the same. A melee weapon is required to block/parry against a melee weapon; an improvised weapon can be used at -1d. Brawling can be used to defend against swordplay if the defender has at least one cyberlimb. 
 
     - If Attacker's roll meets or beats Defender's roll, Attacker deals full damage. 
 
