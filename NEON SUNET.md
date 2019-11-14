@@ -821,14 +821,14 @@ If the failed Hard hack was attempted using an external computer, the damage is 
 
 The base health of a computer can be improved by installing durable liquid metal cooling and other redundant systems, but this increases the size of the computer and quickly renders it difficult to transport.
 
-| Computer Health | Additional Cost |      Approximate Size      |
-| :-------------: | :-------------: | :------------------------: |
-|       10        |       $0        |   Slim Laptop or Tablet    |
-|       20        |     $2,000      |         Briefcase          |
-|       30        |     $4,000      |      Desktop Computer      |
-|       40        |     $8,000      |     Entire Office Desk     |
-|       50        |     $16,000     |  Full Desk + Server Tower  |
-|       60        |     $32,000     | Console + Full Server Room |
+| Base Computer Health | Additional Cost |      Approximate Size      |
+| :------------------: | :-------------: | :------------------------: |
+|          10          |       $0        |   Slim Laptop or Tablet    |
+|          20          |     $2,000      |         Briefcase          |
+|          30          |     $4,000      |      Desktop Computer      |
+|          40          |     $8,000      |     Entire Office Desk     |
+|          50          |     $16,000     |  Full Desk + Server Tower  |
+|          60          |     $32,000     | Console + Full Server Room |
 
 ### Failing a Soft Hack [TODO]
 
