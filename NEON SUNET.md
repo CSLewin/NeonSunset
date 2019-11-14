@@ -830,7 +830,7 @@ The base health of a computer can be improved by installing durable liquid metal
 |       50        |     $16,000     |  Full Desk + Server Tower  |
 |       60        |     $32,000     | Console + Full Server Room |
 
-### Failing a Soft Hack
+### Failing a Soft Hack [TODO]
 
 *TODO, but you reveal info about you to your target.*
 
