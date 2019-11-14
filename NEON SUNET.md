@@ -595,25 +595,30 @@ Modifications that would increase a weapon quality above a listed maximum value 
 
 A + or - indicates one step up or down on that category's units. A weapon may modified to swap from using cased ammunition to heatblock technology or vice versa. 
 
-Damage: (min) 1d6/2d6/3d6/4d6/5d6/6d6 (max)
-	+damage = +noise. Also, either -range OR worse concealment.
-	-damage = -noise. Also, either +range OR better concealment
+**Damage: (min) 1d6/2d6/3d6/4d6/5d6/6d6 (max)**
 
-Range: (min) Melee/Close/Short/Medium/Long/Extreme (max)
-	+range = +noise OR -damage OR worse concealment
-	-range = -noise OR -damage OR better concealment
+- +damage = +noise. Also, either -range OR worse concealment.
+- -damage = -noise. Also, either +range OR better concealment
 
-Concealment: (min) Pocket/Jacket/Coat/Not Possible (max)
-	better concealment (smaller gun) = -damage OR -range
-	worse concealment (larger gun) = +damage OR +range
+**Range: (min) Melee/Close/Short/Medium/Long/Extreme (max)**
 
-Rate of Fire: (min) Semiauto, Burst, Full Auto (max)
-	+RoF = -damage OR -range
-	-RoF = +damage OR +range
+- +range = +noise OR -damage OR worse concealment
+- -range = -noise OR -damage OR better concealment
 
-Noise: (min) Quiet, Room, Floor, Building, Block, Mile (max)
-	-noise = -damage OR -range OR better concealment
-	+noise = +damage OR +range OR worse concealment (THE LOUDENER)
+**Concealment: (min) Pocket/Jacket/Coat/Not Possible (max)**
+
+- better concealment (smaller gun) = -damage OR -range
+- worse concealment (larger gun) = +damage OR +range
+
+**Rate of Fire: (min) Semiauto, Burst, Full Auto (max)**
+
+- +RoF = -damage OR -range
+- -RoF = +damage OR +range
+
+**Noise: (min) Quiet, Room, Floor, Building, Block, Mile (max)**
+
+- -noise = -damage OR -range OR better concealment
+- +noise = +damage OR +range OR worse concealment (THE LOUDENER)
 
 ### Cased Ammunition and Heatblocks
 
