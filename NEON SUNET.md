@@ -174,7 +174,7 @@ You start with a Professional Reputation of 2 in all areas matching your Focus a
 |    **Social**    |   **2/10**    |   **2/10**   | **4/10**  |
 |     **Tech**     |   **0/10**    |   **0/10**   | **2/10**  |
 
-## Stats
+## Stats [TODO: EXAMPLES]
 
 **Divide 30 points among your stats.** Remember to spend the free stat points granted by your Focus.
 
@@ -608,6 +608,10 @@ Power Melee weapons require a heatblock to function; without one, they deal half
 Ranged weapons that fire bullets can use cased ammunition, or can be converted to use a heatblock.
 Bows and crossbows can only fire arrows and bolts, respectively. They cannot use heatblock technology.
 Rocket and grenade launchers require their respective explosives to function and cannot use heatblock technology.
+
+### Wielding Multiple Weapons
+
+When you attack with more than one weapon as part of an Action, all your attacks suffer -2d. If you attack distinct targets, roll damage for each target individually. If you attack the same target, roll damage twice and apply the higher result. If the weapons used are not of an identical type and, if applicable, ammunition type, all your attacks suffer a total of -3d.
 
 ### [Sidebar] Magic
 
