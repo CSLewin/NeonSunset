@@ -44,7 +44,7 @@ Roll 1d10 and add your relevant stat, relevant skill, and any modifiers from you
 For each **advantage** on a roll, roll an additional d10 and use the **highest** single die rolled. Advantage is written as "+1d".
 For each **disadvantage** on a roll, roll an additional d10 and use the **lowest** single die rolled. Disadvantage is written as "-1d".
 
-*Example: A metabolic filter is surgically installed bioware that grants +1d to resist poisons and sources of intoxication.*
+*Example: A metabolic filter is cyberware that grants +1d to resist poisons and sources of intoxication.*
 
 **You can have a maximum of three advantages and three disadvantages applied to a single roll.** Individual advantages and disadvantages on the same roll cancel each other out. Diminishing returns start around two or three dis/advantages; it's just not worth tracking any more than that.
 
@@ -63,13 +63,13 @@ For each **disadvantage** on a roll, roll an additional d10 and use the **lowest
 
 ## Common Circumstance Modifiers
 
-| Situation or Condition                                       | Modified Roll                           |
-| ------------------------------------------------------------ | --------------------------------------- |
-| Missing important (but not crucial) tools or information     | -d to complete the task                 |
-| Attempting a non-combat task while actively being attacked   | -d on attempts while under attack       |
-| Drunk or intoxicated to the point of difficulty walking a straight line | -d on just about everything until sober |
-| Using superior/bleeding-edge technology or rare, profound insight | +d to complete the task                 |
-| Attacking an unaware target                                  | +d to successfully strike the target    |
+| Situation or Condition                                       | Modified Roll                            |
+| ------------------------------------------------------------ | ---------------------------------------- |
+| Missing important (but not crucial) tools or information     | -1d to complete the task                 |
+| Attempting a non-combat task while actively being attacked   | -1d on attempts while under attack       |
+| Drunk or intoxicated to the point of difficulty walking a straight line | -1d on just about everything until sober |
+| Using superior/bleeding-edge technology or rare, profound insight | +1d to complete the task                 |
+| Attacking an unaware target                                  | +1d to strike the target                 |
 
 ## Additional Mechanical Notes
 
@@ -158,11 +158,11 @@ You draw strength from others like you. Communities can be based on geography, e
 
 The nine combinations of Focus and Approach are a rough equivalent to the possible areas in which you can grow your reputation. Characters defined by the same Focus/Approach combination are more alike than not, although a beat cop and a corporate security officer might disagree strongly on that point. Focus/Approach combinations are game elements, not explicit categories recognized within the world; treat them as the map, not the territory.
 
-**Professional Reputation** within a Focus/Approach combination runs from a minimum of 0 (practically anonymous) to a maximum of 10 (internationally recognizable). Your Professional Reputation * 10 is the *percentage chance* that an NPC involved in or adjacent to the criminal underworld through which you move has heard of your exploits.
+**Professional Reputation** within a Focus/Approach combination runs from a minimum of 0 (practically anonymous) to a maximum of 10 (internationally recognizable). Your Professional Reputation * 10 is the *percentage chance* that an NPC involved in or adjacent to the criminal underworld through which you move has heard of your exploits--probably your most well-known job and stories of the use of your highest-ranked skills.
 
 If you're looking for uncommon or proscribed information, services, or supplies, your Professional Reputation is the chance you have of knowing someone who can get you what you want--the GM will tell you which Focus/Approach combination is most appropriate to your desires. If someone in that category owes you a favor, you can generally cash in the favor to get what you want. Otherwise, you're likely to owe them a favor in return. If your contact isn't able to get what you want, they might be able to put you in touch with someone who can--but you'll owe them a favor for making the introduction in addition to the price charged by whomever you ultimately speak to.
 
-Most people do not share your life riding along the ragged edge of disaster. To determine your recognition among the rest of the population, you have a General Reputation. Your **General Reputation** is the sum of all your individual Professional Reputations. This total is the *percentage chance* that an NPC uninvolved in the world of professional criminals has heard of you. If this is the case, the NPC is likely to react with some apprehension, as you are a notorious career criminal and they are not.
+Most people do not share your life riding along the ragged edge of disaster. To determine your recognition among the rest of the population, you have a General Reputation. Your **General Reputation** is the sum of all your individual Professional Reputations. This total is the *percentage chance* that an NPC uninvolved in the world of professional criminals has heard of you. If this is the case, the NPC is likely to react with some apprehension, as you are a notorious career criminal and they are not. 
 
 You start with a Professional Reputation of 2 in all areas matching your Focus and all areas matching your Approach. In your specific Focus/Approach combination, you start with a Professional Reputation of 4. Your Professional Reputation can be altered by Prior Jobs before the game begins. During gameplay and between jobs, the GM may apply changes to your Professional Reputations based on your actions and the actions of your crew.
 
@@ -176,36 +176,72 @@ You start with a Professional Reputation of 2 in all areas matching your Focus a
 
 ## Stats
 
-**Divide 30 points among your stats.** Each stat ranges from 1 (pitiful) to 10 (human pinnacle). Human average in a stat is 5. Remember to spend the free stat points received from your Focus.
+**Divide 30 points among your stats.** Remember to spend the free stat points granted by your Focus.
 
-- Might:  How much force can you muster?
-  - Might contributes to melee damage, brute lifting/carrying, some athletic efforts, and some means of intimidation.
-- Grace: How deft are you?
-  - Grace contributes to avoiding physical harm, combat accuracy, unaugmented driving, 
-- Grit: How long can you endure?
-  - [TODO]
-- Charm: How convincing are you?
-  - [TODO]
-- Lore: How much do you remember? education, teaching, 
-  - [TODO]
-- Luck: How lucky are you?
-  - Luck is a pool of floating Advantages. You can apply them before you roll to cancel out Disadvantages or to give yourself additional Advantages up to the usual maximum of +3d. You must announce that you're spending Luck before you roll your dice. You cannot spend Advantages from Luck after you've already rolled.
+Each stat ranges from 1 to 10. Human average in a stat is 3; the maximum human potential is 6. Beyond that, augmentation is necessary--except for Luck, which naturally ranges from 1-10. The maximum possible value of any stat is 10.
 
-Each stat starts with a number of free points in it based on the power level of the game. You should decide on this power level in a conversation between the players and the GM before the game starts. 
+If you start with a stat above the human maximum of 6--a perfectly valid choice--consider how you achieved this. Vat-grown muscle? Skeletal hardpoints for an assistive exoframe? Superconductive spinal implants? Immunosupportive germline engineering? Pheromone glands? A headware library of reference material? Extensive nanomedical supplements? There is no additional cost to start the game with a stat above 6, but an explanation and description are required--any stat above 6 will have obvious physical signs.
 
-- **Gutterpunk Trash**: Each stat starts with **0 free points**. Your character is merely normal, for better or worse.
-- **Cyberpunk Standard**: Each stat starts with **1 free point.** This is the default assumption used in these rules.
-- **Dark Future Heroics**: Each stat starts with **2 free points**. Your character is meaningfully stronger than average.
+You have a number of stat points to spend based on the power level of the game. You should decide on this power level in a conversation between the players and the GM before the game starts. 
 
-You can't start the game with a stat higher than 10 or lower than the stat's free starting points. While severe physical or mental trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values without the use of cyberware. Make sure you're happy with your stats before gameplay begins.
+- **Gutterpunk Trash**: Spend **24 stat points**. Your character is close to average, for better or worse.
+- **Cyberpunk Standard**: Spend **30 stat points**. You're a cut above. This is the default used in these rules.
+- **Dark Future Heroics**: Spend **36 stat points**. Your character is significantly stronger than average.
+
+While severe trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values. Make sure you're happy with your stats before the game begins.
 
 If you'd like to quickly assign your stat points, consider putting 7 points in two stats, 5 points in two stats, and 3 points in two stats. If you want to be dangerous in combat, make your highest stats either Might (for hand-to-hand combat) or Grace (for ranged combat), and Grit (to survive more trauma). If you want to be great at social interactions, make your highest stats Charm and either Lore or Luck. If you want to be great at working with technology, make your highest stats Lore and either Grace or Luck.
 
-### Secondary Stats
+### Might
+
+How much force can you muster? Might contributes to melee damage, brute lifting/carrying, some athletic efforts, and some means of intimidation.
+
+Your Brawling damage is a number of d6s equal to half your Might (rounded down, minimum 1d6). Striking with a cyberware limb adds +1d6 to this damage. Implanted melee weapons deal their listed damage or your Brawling damage, whichever requires you to roll more d6s.
+
+- At Might 1, you have the physical power of a small child.
+- At Might 3, you could haul 50lbs of dead weight for an hour with difficulty.
+- At Might 6, you're a contender to win a World's Strongest Human competition.
+- At Might 7 and beyond, your body shows obvious signs of augmentation, such as hydraulics, artificial muscle cables, or spinal reinforcements.
+- At Might 8, you can rip the door off a car (and perform similar feats of strength) without a check.
+- At Might 10, you can hammer-throw a four-door sedan about 30m. Your base brawling damage increases by +2d6.
+
+### Grace
+
+How deft are you? Grace contributes to avoiding physical harm, combat accuracy, and unaugmented driving.
+
+- What can I do at Grace 1, 3, 6, 8, or 10?
+
+### Grit
+
+How long can you endure?
+
+- What can I do at Grit 1, 3, 6, 8, or 10?
+
+### Charm
+
+How convincing are you?
+
+- What can I do at Charm 1, 3, 6, 8, or 10?
+
+### Lore
+
+How much do you remember?
+
+- What can I do at Lore 1, 3, 6, 8, or 10?
+
+### Luck
+
+How lucky are you?
+
+Luck is a pool of floating Advantages. You can apply them before you roll to cancel out Disadvantages or to give yourself additional Advantages up to the usual maximum of +3d. You must announce that you're spending Luck before you roll your dice. You cannot spend Advantages from Luck after you've already rolled.
+
+
+
+#### Secondary Stats
 
 Secondary Stats are derived from your basic stats (Might, Grace, etc.). You can't spend points on increasing your secondary stats, but anything that changes your basic stats affects your secondary stats. Secondary stats include:
 
-#### Speed
+##### Speed
 
 Speed indicates how quickly you can move on foot. Your Speed is equal to your Might + Grace in meters per round.
 
@@ -447,13 +483,15 @@ Two kinds of currency: Scrip and Coin. Printed money still exists, but
 
 ## Cyberware [TODO]
 
-Limbs and Senses
-
 Secondhand Cyberware: Functional, but -1d to do anything with it. At least it's not a pegleg. Very cheap.
 
 Baseline Prosthetics: Equivalent to a human limb or sense. Obviously artificial.
 
 Cyberware Replacements: Upgrades over the original meat.
+
+**How is cyberware different from the stuff that justifies having a stat over 6?**
+
+Systemic augmentation increases your base stats and requires weeks of healing and months of adjustment to get the most out of one's newfound abilities, especially if the augmentations are installed during adulthood rather than during the peak mental plasticity of childhood. Given the risks and costs of major surgery, systemic augmentation of children is vanishingly rare, although not unheard-of.
 
 - Options: 
   - Axial upgrades (head, neck, spinal structure, chest)
@@ -466,13 +504,13 @@ Cyberware Replacements: Upgrades over the original meat.
     - Ears: Hearing, balance and acceleration
     - Nose/Tongue: Smell and Taste
     - Skin: Touch, temperature, proprioception
-
 - $2,000 for +1d on any task using the limb or sense.
   - Double the upgrade cost ($4k, $8k, $16k, etc.) for each subsequent upgrade in the location.
   - +$500 for skin-tone coatings that look like flesh at a casual glance, but are obviously fake on inspection, or for cosmetics like anodizing, chromecoating, surface detailing, (holo)graphic overlays, etc.
 - 2x the total cost to disguise it as organic to unaugmented examination (-1d to notice).
 - 4x the total cost to require high-end scanners to tell the difference between flesh and your limb (-2d to notice).
 - 3x the cost of a weapon to integrate it into cyberware. Ammunition is 1/10th this increased cost.
+  - Weapons with a Conceal of "Coat" or "N/A" can't be hidden--they're simply too large, and will be apparent even to casual observers.
   - Integrated weapons are illegal and will be removed if the perpetrator is captured alive.
 - 3x the cost of armor to integrate it into skin. Dermal armor degrades and heals like standard armor.
 
@@ -561,6 +599,8 @@ B - Burst Fire: Attack at -1d. Double damage listed. one target. Uses 3 bullets.
 FA - Full Auto: Attack at -2d. Triple damage listed to one target OR base damage to every target in line of sight within a 10m spread. Empty the magazine.
 
 Melee weapons can be used to attack up to twice each round. Each attack can be directed at a different target.
+
+Objects used as improvised weapons in melee or ranged combat deal your Brawling damage. Many objects, but especially those not designed for combat, break after one solid hit or block/parry.
 
 A full magazine of standard cased ammunition costs 1/10th the price of the weapon firing it.
 
@@ -701,7 +741,7 @@ Cover and concealment are very common, but they won't keep you alive forever. Ma
 
 Humans have health equal to their GRIT * 6. Health directly represents your body's ability to function despite physical trauma. When an attack deals damage, you are physically wounded and suffer terrible pain; when an attack reduces you to 0 health, your mind and body finally give out and you hit the dirt. 
 
-For reference, an unarmored human can suffer roughly two shots to the body or one shot to the head with a pistol before dying. If death isn't instantaneous, it'll take them about 20 to 30 seconds to bleed out, go into shock, and die.
+For reference, an unarmored human can suffer a couple shots to the body or one shot to the head with a pistol before dying. If death isn't instantaneous, it'll take them about 20 to 30 seconds to bleed out, go into shock, and die.
 
 ## Death
 
