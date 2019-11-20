@@ -341,7 +341,7 @@ There are four essential approaches to manipulation. To carry any weight, each a
 
 Your character may be about to start their first job, light on resources but free of debt and consequence. Or, they might be a seasoned criminal, caught in a sprawling web of dubious partnerships and vendettas. Most likely they're somewhere between those two extremes.
 
-When creating your character, decide how many prior jobs you've completed. The GM will impose a maximum number of prior jobs--two to four is a good place to start. For each prior job, roll on the following charts to determine the nature and outcome of the job. If you have a specific history in mind for your character, you may pick results from each table except for "1d4: How Did The Job Go?" and "1d20: How Did You Make Out?" rather than rolling. 
+When creating your character, decide how many prior jobs you've completed. The GM will impose a maximum number of prior jobs--two to four is a good place to start. For each prior job, roll on the following charts to determine the nature and outcome of the job. If you have a specific history in mind for your character, you may pick results from each table except for "1d4: How Did The Job Go?" and "1d10: How Did You Make Out?" rather than rolling. 
 
 **For each prior job your character has completed, your character owes one favor to another member of the criminal underworld.** These favors are in addition to any favors owed as a result of rolling on the prior jobs tables. Use the "Random Focus/Approach" table to determine the nature of the NPC to whom you owe your favor(s). Even if your character hasn't actively worked in years, word will eventually get around that they're back on the job--you should expect that the GM will have your debtors call in favors owed over the course of the game.
 
@@ -431,20 +431,20 @@ If a prior job indicates that you owe someone else a favor, expect that this NPC
 |   3    | Failure with Benefit |           One +1, one -1 (can't be combined)            |
 |   4    |    Abject Failure    |                         One -1                          |
 
-### 1d20: How Did You Make Out?
+### 1d10: How Did You Make Out?
 
 | Result | Gains and/or Losses  |
 | :----: | :------------------: |
-|  1-2   |      Cash/Gear       |
-|  3-4   |     Cash/Favors      |
-|  5-6   |   Cash/Reputation    |
-|  7-8   |    Cash/Cyberware    |
-|  9-10  |     Gear/Favors      |
-| 11-12  |   Gear/Reputation    |
-| 13-14  |    Gear/Cyberware    |
-| 15-16  |  Favors/Reputation   |
-| 17-18  |   Favors/Cyberware   |
-| 19-20  | Reputation/Cyberware |
+|   1    |      Cash/Gear       |
+|   2    |     Cash/Favors      |
+|   3    |   Cash/Reputation    |
+|   4    |    Cash/Cyberware    |
+|   5    |     Gear/Favors      |
+|   6    |   Gear/Reputation    |
+|   7    |    Gear/Cyberware    |
+|   8    |  Favors/Reputation   |
+|   9    |   Favors/Cyberware   |
+|   10   | Reputation/Cyberware |
 
 ### Gains and Losses
 
