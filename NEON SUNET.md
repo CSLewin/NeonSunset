@@ -878,6 +878,10 @@ The base health of a computer can be improved by installing durable liquid metal
 
 *TODO, but you reveal info about you to your target.*
 
+
+
+**EVERYTHING BELOW THIS LINE IN THIS SOFT HACK SECTION IS DEPRECATED AND I NEED TO JUST EXTRACT THE USEFUL FICTION IDEAS AND DELETE THE REST**
+
 Searching for information leaves traces. Search histories, access patterns, metadata--all fodder for expert Oversight Systems to construct profiles of anonymized users based on what-if methodologies and flag anyone within a few steps of a particularly concerning archetype, such as "terrorist", "stalker", or "political dissident".
 
 When you search for information on a subject relating to a job, you wager that you can find data to answer your questions before the system learns about you. Normally, this doesn't matter--nobody cares if you're googling a celebrity's birthdate to settle a bet. If you're looking up municipal sewer blueprints AND you're researching thermite recipes AND you're looking up the address of a bank branch manager, there's a chance an Oversight System is going to get curious.
