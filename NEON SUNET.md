@@ -902,60 +902,6 @@ The most expedient defense against self-revelation is to hack from unimportant l
 
 You can also purchase a **fake civilian license** in varying qualities. A basic fake license costs $500 and provides a 1-in-6 chance to protect against a revelation of your identity. Each additional chance out of six to protect your identity doubles the cost of the license. A fake civilian license can sustain a number of flags equal to the chance out of six it has to protect you before being permanently flagged as fake and rendered useless. License status is public; anyone can check if a civilian license has been permanently flagged as a fake.
 
-
-
-**EVERYTHING BELOW THIS LINE IN THIS SOFT HACK SECTION IS DEPRECATED AND I NEED TO JUST EXTRACT THE USEFUL FICTION IDEAS AND DELETE THE REST**
-
-Searching for information leaves traces. Search histories, access patterns, metadata--all fodder for expert Oversight Systems to construct profiles of anonymized users based on what-if methodologies and flag anyone within a few steps of a particularly concerning archetype, such as "terrorist", "stalker", or "political dissident".
-
-When you search for information on a subject relating to a job, you wager that you can find data to answer your questions before the system learns about you. Normally, this doesn't matter--nobody cares if you're googling a celebrity's birthdate to settle a bet. If you're looking up municipal sewer blueprints AND you're researching thermite recipes AND you're looking up the address of a bank branch manager, there's a chance an Oversight System is going to get curious.
-
-For each question or body of knowledge you ask for (neighborhood sewer plans, recipes for decent thermite, nonpublic personal information), spend four hours of in-game effort and select one of the following data points, then roll 1d10+Lore+Technology. 
-
-- The physical location from which you're conducting your search.
-- Your civilian license (or lack of one), including name, address, photo, and official records (education, employment, military, medical, and criminal)
-- Your unique hardware configuration
-- Your true, holistic search topic
-
-### Other Clever Ideas
-
-- Money creation is so obvious that it's highly policed/suspicious. Why crypto will convert into scrip, but not the other way around. Crypto can't be faked without a global hack. Underworld exclusively deals in crypto. 
-
-Gear: headware implant. Easy to install, slow to integrate. Citizen license required. Can be jailbroken for $$$. Uses human pattern recognition. Better at fast hacks. Worse at slow. Can do both. All smartphone functions. Not a cortical stack. 
-
-Modular laptop models plug into nonportable booster servers. Better at slow hacks. Worse at fast. Can do both. Obviously all smartphone functions. Can use AR overlay if on person (glasses, goggles, helmet HUD, or occular implant) 
-
-Fast hack: stacking backlash damage from circumstantial difficulty.  
-
-- Aftermath: higher difficulty on topic (defenses raised) ???
-
-Slow hack: stacking info shared from circumstantial difficulty.  
-
--  Aftermath: damage from seeking same info (Black ICE activated) ???
-
-**Skilled Hackers CAN:** 
-\- Gather rare or hidden information 
-\- Subvert and control LOCAL electronic devices, including expert systems
-\- Subvert DISTANT devices via tap or dart. Requires prior physical interaction.
-
-**Skilled Hackers CANNOT:** 
-\- Brick someone's gun, detonate grenades on someone's belt (because they aren't networked) 
-\- Subvert and control devices on a remote network. Distant commands are dumped. 
-
-Two modalities for hacking:
-
-**Hard and Fast**
-\- Game mechanic: Immediate danger of brainburn (damage), increased difficulty, or device ID/lockdown within the network.
-\- Generally used to subvert local physical devices, as you're using your own brain in a MITM attack.
-\- You can bottle a hard and fast hack (like a spell scroll), but it's single-use and has binary success.
-\- Failure consequences tie in with the existing damage/death/healing system.
-
-**Low and Slow**
-\- Game mechanic: Press your luck.
-\- Gather info/answer questions, wager giving info about yourself to target.
-\- Improve odds of success by taking more time, but at scales that make it a downtime/narrative action and not useful in moments of action.
-\- Failure consequences tie in with the (to-be-written) HEAT system, with a table for police/corporate/Black ICE responses.
-
 # It's Easy To Be A Weapons-Grade Motherfucker
 
 As a career criminal, being an absolute bastard is trivial. Doing things with respect for the value of human life is much harder. Worthwhile? Maybe. 
@@ -964,50 +910,8 @@ Write about that here; maybe talk about what kind of game you're gonna run--do y
 
 ------
 
-Notes from this morning's walk follow:
-
-Hacking is Slow and Subtle or Fast and Hard.
-
-- Since I want *some* role protection but I don't want to lock away the trope entirely, I'm splitting it between low-and-slow/hard-and-fast hacks. Low and slow is a press-your-luck mechanic used to gather info/get answers to questions in exchange for a growing risk of giving away info about *you* to the target. You can improve your odds of success by taking extra time, but on scales that make it a downtime/legwork action, not "leave me in the van guys" stuff. 
-- Hard and fast methods can grab info or subvert physical devices, but risks damage instead of revealing information (brainburn from jacking into systems directly). You can, essentially, bottle a fast hack like a scroll, but it's single use (either it works or fries itself trying) and you can't use it to gather info, only subvert a device.
-- I feel like that'll address the issue of 1) bunkerhackers and 2) hacking as a *completely* separate, time-consuming minigame.
--  I like the idea of a table of categories of distractions within systems. More rolls on the table based on time spent in an unsafe place. 
-
-Slow: press your luck. Failure lets you double down on potential damage/information repercussions. Table for response types (cops, Black ICE, doxxing) from Target. Takes minimum four hours per attempt, failure burns the location (usually). Options for better outcomes inflict penalty on chances.
-
-Fast and Hard: Opposed rolls, mounting difficulty. Damage/Feedback/Lockdown on each roll.
-
-~
-
-NEON SUNSET guns have damage, range, concealment, rate of fire, ammo type, and noise categories. You can modify a gun's damage, range, concealment, rate of fire, and noise. 
-
-A + or - indicates one step up or down on that category's units. 
-All gun modification in NEON SUNSET is illegal, but that's unlikely to stop anyone.
-You can also change the ammo type, but that's independent of the rest (it takes either cased ammo or heatblock tech).
-
-Damage: 1d6 (min)/2d6/3d6/4d6/5d6/6d6 (max)
-	+damage = +noise AND -range OR worse concealment.
-	-damage = -noise AND +range OR better concealment
-
-Range: Melee/Close/Short/Medium/Long/Extreme
-	+range = +noise OR -damage OR worse concealment
-	-range = -noise OR -damage OR better concealment
-
-Concealment: Pocket/Jacket/Coat/Not Possible
-	better concealment (smaller gun) = -damage OR -range
-	worse concealment (larger gun) = +damage OR +range
-
-Rate of Fire: Semiauto, Burst, Full Auto
-	+RoF = -damage OR -range
-	-RoF = +damage OR +range
-
-Noise: Quiet, Room, Floor, Building, Block, Mile
-	-noise = -damage OR -range OR better concealment
-	+noise = +damage OR +range OR worse concealment (THE LOUDENER)
-
 # TODO
 
-- Hacking
 - Cyberware
   - Bioware
   - Cloning
