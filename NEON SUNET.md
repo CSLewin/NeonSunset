@@ -515,7 +515,7 @@ Systemic augmentation increases your base stats and requires weeks of healing an
 - 3x the cost of a weapon to integrate it into cyberware. Ammunition is 1/10th this increased cost.
   - Weapons with a Conceal of "Coat" or "N/A" can't be hidden--they're simply too large, and will be apparent even to casual observers.
   - Integrated weapons are illegal and will be removed if the perpetrator is captured alive.
-- 3x the cost of armor to integrate it into skin. Dermal armor degrades and heals like standard armor.
+- 3x the cost of armor to integrate it into skin. Dermal armor degrades and self-repairs like standard armor.
 
 Entirely new organs (culture drug glands)? Limb/organ cloning? Full clone replacements?
 
@@ -587,19 +587,19 @@ As long as an opponent is aware of you and close enough to strike you in melee c
 |   Large Melee    |       3d6+Might        |  Melee  |  Coat   |   2/round    |    -     |   Room   |     Civilian     |      No      |
 |   Power Melee    |       4d6+Might        |  Melee  |   N/A   |   2/round    |    -     |  Floor   |     Civilian     |      No      |
 |      Pistol      |          3d6           |  Short  | Jacket  |      SA      |    10    |  Floor   |     Civilian     |     Yes      |
-|       Bow        |          3d6           |  Short  |   N/A   |      S       |    1     |  Quiet   |     Civilian     |      No      |
-|     Shotgun      |          4d6           | Medium  |  Coat   |      S       |    6     |  Floor   |     Civilian     |      No      |
-|     Crossbow     |          3d6           | Medium  |  Coat   |      S       |    1     |  Quiet   |     Civilian     |      No      |
-|  Hunting Rifle   |          5d6           |  Long   |   N/A   |      S       |    5     | Building |     Civilian     |      No      |
+|       Bow        |          3d6           |  Short  |   N/A   |      SA      |    1     |  Quiet   |     Civilian     |      No      |
+|     Shotgun      |          4d6           | Medium  |  Coat   |      SA      |    6     |  Floor   |     Civilian     |      No      |
+|     Crossbow     |          3d6           | Medium  |  Coat   |      SA      |    1     |  Quiet   |     Civilian     |      No      |
+|  Hunting Rifle   |          5d6           |  Long   |   N/A   |      SA      |    5     | Building |     Civilian     |      No      |
 |       SMG        |          3d6           |  Short  | Jacket  |   SA/B/FA    |    30    |  Floor   |     Military     |      No      |
 |  Assault Rifle   |          4d6           |  Long   |  Coat   |   SA/B/FA    |    40    | Building |     Military     |      No      |
 |   Sniper Rifle   |          6d6           | Extreme |   N/A   |      SA      |    5     |  Block   |     Military     |      No      |
-| Rocket Launcher  | 8d10, 10m blast radius | Extreme |   N/A   |      S       |    1     |   Mile   |     Military     |      No      |
-| Grenade Launcher |  6d6, 5m blast radius  | Medium  | Jacket  |      S       |    6     |  Block   |     Military     |      No      |
+| Rocket Launcher  | 8d10, 10m blast radius | Extreme |   N/A   |      SA      |    1     |   Mile   |     Military     |      No      |
+| Grenade Launcher |  6d6, 5m blast radius  | Medium  | Jacket  |      SA      |    6     |  Block   |     Military     |      No      |
 
-SA - Semiauto: Damage as listed. Firing this weapon two rounds in a row imposes a -1d penalty to attack. This penalty does not stack with itself.
-B - Burst Fire: Attack at -1d. Double damage listed. one target. Uses 3 bullets.
-FA - Full Auto: Attack at -2d. Triple damage listed to one target OR base damage to every target in line of sight within a 10m spread. Empty the magazine.
+SA - Semiauto: No additional attack modes. Damage as listed.
+B - Burst Fire: Attack at -1d. Double damage listed. one target. Fires 3 rounds.
+FA - Full Auto: Attack at -2d. Triple damage listed to one target OR base damage to every target in line of sight within a 10m spread. Empties the magazine.
 
 Melee weapons can be used to attack up to twice each round. Each attack can be directed at a different target.
 
@@ -710,7 +710,7 @@ Opposed rolls.
 
 ## Armor
 
-Armor costs $100 per point. Armor reduces damage by 1 for every point of armor. There are two locations for wearing armor: Body and Head. Helmets are purchased separately from body armor. 
+Armor costs $100 per point and is always purchased in 5-point increments. Armor reduces damage by 1 for every point of armor. There are two locations for wearing armor: Body and Head. Helmets are purchased separately from body armor. 
 
 Wearing a helmet inflicts -1d per 10 head armor *after the first 5* on Perception checks.
 
@@ -915,10 +915,42 @@ Write about that here; maybe talk about what kind of game you're gonna run--do y
 
 # NPC Gallery
 
+Note to self/don't include this? Some NPC rules:
+
+Most NPCs are Common People. 3 in every stat, 2 ranks in the Common skills. Don't bother defining Areas of Expertise; just roll everything without reduction.
+
+If someone's an Extra, give them a Focus template. Determine their Approach, but only for roleplaying context; there aren't meaningful statblock changes that come from Approach for an NPC.
+- Focus Templates
+	- Combat: +2 Might, Grace, or Luck. +2 to two skills from Perception, Shooting, Athletics, Brawling, or Swordplay. Reload without an Action. +1d on all attacks. 
+		- Gear: 15 head/body armor (-1 Grace), melee weapon, ranged weapon. $2,000 of additional gear.
+	- Social: +2 Charm, Lore, or Luck. +2 to two skills from Perception, Tracking, Streetwise, Stealth, or Manipulate. +1d on all Manipulate checks. Reroll a Manipulate check 1/session. 
+		- Gear: 10 body armor, ranged weapon. $2,000 of additional gear.
+	- Tech: +2 Grit, Lore, or Luck. +2 to two skills from Technology, Streetwise, Driving, Medicine, or Manipulate. +1d on Technology checks. 
+		- Gear: 20 armor head/body (-1 Grace), ranged or melee weapon, tools relevant to skills. $2,000 of additional gear.
+
+Basically 4 tiers of NPCS:
+	Common People - About 4/5ths of all the NPCs you'll meet.
+	Extras - Common People with a Focus template. 
+	Professionals - Common People with a Focus template and a number of Prior Jobs.
+	Major Characters - The PCs, and any major opposition they might face. Major Characters are created as if they were PCs, complete with spending money on gear and cyberware.
+
 ## Regular Folks
 
-Might 3 Grace 3 Grit 3 Charm 3 Lore 3 Luck 5
-Athletics 2, Manipulate 2, Perception 2, Streetwise 2
+```
+Regular Folks:
+Might 3 | Athletics 2
+Grace 3 | Athletics 2
+Grit 3 
+Charm 3 | Manipulate 2
+Lore 3 | Streetwise 2
+Luck 3 | Perception 2
+
+Dodge (-4 initiative): 1d10+5
+Head Armor 0 / Body Armor 0 / Health 18
+
+Melee (2/round): Unarmed 1d10+3 attack, 1d6+3 damage
+Ranged: None
+```
 
 ## Professionals
 
@@ -927,6 +959,24 @@ Athletics 2, Manipulate 2, Perception 2, Streetwise 2
 ## Corporate Security
 
 ## Gangs
+
+```
+Combat Focus Extra (Might Melee):
+Might 5 | Athletics 4, Brawling 2 (Breadth 2/Depth 2)
+Grace 3 (2) | Athletics 4
+Grit 3 
+Charm 3 | Manipulate 2
+Lore 3 | Streetwise 2
+Luck 3 | Perception 2 (-1d)
+
+Dodge (-4 initiative): 1d10+6
+Head Armor 15 (-1d Perception) / Body Armor 15 (-1 Grace) / Health 18
+
+Melee (2/round): Unarmed 1d10+7 +2d attack, 3d6+5 damage
+Ranged: Pistol 1d10+2 attack, 3d6 damage
+
+Cyberware: Cyberarm x1 (+1d Brawling attacks, +1d6 Brawling damage)
+```
 
 ## Drones
 
