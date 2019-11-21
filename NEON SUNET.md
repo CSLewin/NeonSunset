@@ -307,6 +307,8 @@ Skills marked with with an "(C)" are **common**; everyone gains experience in th
 
 ##### Brawling
 
+Your Brawling damage is a number of d6s equal to half your Might (rounded down, minimum 1d6). Striking with a cyberware limb adds +1d6 to this damage. Implanted melee weapons deal their listed damage or your Brawling damage, whichever requires you to roll more d6s.
+
 Your martial arts knowledge is determined by the **Breadth** and **Depth** of your studies. When you put your first skill point into Brawling, you begin with Breadth 1 and Depth 1 and must immediately dedicate your first area of expertise to increase either Breadth or Depth by an additional point.
 
 When you gain an additional area of expertise in Brawling, you must spend it to increase either your Breadth or Depth by one point. For example, at Brawling 6, you could have split your three areas of expertise into Breadth 3/Depth 2, or you could simulate an extreme focus on a single martial art as Breadth 1/Depth 4. You can spend a month in dedicated training to shift a point of Breadth to Depth, or vice versa. You cannot reduce either Breadth or Depth below 1.
@@ -708,10 +710,11 @@ Opposed rolls.
 
 ## Armor
 
-Armor costs $100 per point. Armor reduces damage by 1 for every point of armor.
-There are two locations for wearing armor: Body and Head. Helmets are purchased separately from body armor. Wearing a helmet gives you -1d per 10 armor on all Perception checks.
+Armor costs $100 per point. Armor reduces damage by 1 for every point of armor. There are two locations for wearing armor: Body and Head. Helmets are purchased separately from body armor. 
 
-Your GRACE stat is reduced by 1 for every 10 points of armor worn.
+Wearing a helmet inflicts -1d per 10 head armor *after the first 5* on Perception checks.
+
+Your Grace is reduced by 1 for every 10 points of body armor worn *after the first 5*.
 
 Damage that penetrates armor reduces that armor's value by 1. Modern armor is made using self-repairing polymers and will restore itself to its original protective state after 24 hours without suffering ballistic shock. Armor that has self-repaired tends to display telltale tessellated scarring.
 
@@ -724,7 +727,7 @@ ARMOR 30 - combat hardsuit, military license. Built-in linear frame (MIGHT = 8).
 
 Armor exists at 30+, but requires so much mechanical assistance and engineering support that it is effectively an enclosed, powered exosuit and requires a military license and an auto-repair shop's worth of specialized equipment.
 
-All attacks are assumed to be aimed at a target's center of mass. Hitting a specific location (a person's head or joint; a visible fuel tank on a moving vehicle) imposes -2d on a ranged attack roll or -1d in melee. Headshots deal triple damage after armor is applied.
+All attacks are assumed to be aimed at a target's center of mass. Hitting a specific location (a person's head or joint; a visible fuel tank on a moving vehicle) imposes -2d on a ranged attack roll or -1d in melee. Headshots apply armor, then triple any remaining damage.
 
 ## Cover and Concealment
 
@@ -889,14 +892,14 @@ When you fail a hack using Soft methods, roll on the following chart.
 | Result | Information Potentially Revealed |
 | :----: | :------------------------------: |
 |  1-3   |             Location             |
-|  4-5   |              Intent              |
-|   6    |             Identity             |
+|  4-5   |             Identity             |
+|   6    |              Intent              |
 
 The roll's result is the information that is at risk of being revealed. [TODO: Add HEAT effects to all of these.]
 
 - **Location:** The owners of the system containing your requested information learn where you are, physically, right now.
-- **Intent:** The subject of your query (or their security) is alerted to the question you asked about them. They have no idea who asked it. Yet.
 - **Identity:** Your civilian license is revealed to your target. They know who you are--or at least whomever is listed on the license you're using.
+- **Intent:** The subject of your query (or their security team) is alerted to the question you asked about them. They have no idea who asked it. Yet.
 
 Having failed the hack, you have two options: 1) abandon the attempt, or 2) press your luck. If you abandon the attempt, you don't get the answer to your question and your information is revealed. If you press your luck, you can reroll your hack with a -1d penalty; success on this check answers the question without revealing any information about you; failure gives you no answers and reveals not only the rolled information, but an additional roll on the chart as well. If the information revealed from failing to press your luck matches the information from the initial roll, you got lucky--sort of--and have only revealed a single category of info about yourself.
 
@@ -909,6 +912,25 @@ You can also purchase a **fake civilian license** in varying qualities. A basic 
 As a career criminal, being an absolute bastard is trivial. Doing things with respect for the value of human life is much harder. Worthwhile? Maybe. 
 
 Write about that here; maybe talk about what kind of game you're gonna run--do you put people in k-holes and threaten the lives of their family? Do you kill casually? Do you rob from the rich and give to the poor?
+
+# NPC Gallery
+
+## Regular Folks
+
+Might 3 Grace 3 Grit 3 Charm 3 Lore 3 Luck 5
+Athletics 2, Manipulate 2, Perception 2, Streetwise 2
+
+## Professionals
+
+## Cops
+
+## Corporate Security
+
+## Gangs
+
+## Drones
+
+## Mutants and Weirder Stuff
 
 ------
 
