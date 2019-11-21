@@ -699,7 +699,7 @@ Opposed rolls.
 
     - If Attacker's roll meets or beats Defender's roll, Attacker deals full damage. 
 
-      If Attacker fails to meet or beat Defender's roll, both roll damage; Attacker's damage dealt is reduced by defender's damage roll.
+      If Attacker fails to meet or beat Defender's roll, both roll damage; Attacker's damage dealt is reduced by defender's damage roll (minimum zero). Attacker can't take damage from rolling low when the Defender rolls high.
 
   - Dodge: Defender rolls 1d10+Grace+Athletics. 
 
