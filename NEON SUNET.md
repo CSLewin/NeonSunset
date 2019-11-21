@@ -559,7 +559,7 @@ An action can include:
 - Making one ranged attack
 - Reloading a gun with a new magazine, or dumping a heatblock and inserting a new one
 - Making two melee attacks
-- Attempting a hack
+- Starting a hack using Hard methods
 - Using a stim or other autoinjector.
 - Giving the same command to all your active drones, which immediately comply
 - Giving a command to your headware.
@@ -719,7 +719,7 @@ ARMOR 10 - concealable, civilian license
 ARMOR 15 - flack vest, civilian license
 ARMOR 20 - armorgel jack, military license
 ARMOR 25 - gel coat + plate vest, military license
-ARMOR 30 - combat hardsuit, military license. Built-in linear frame (MIGHT = 10).
+ARMOR 30 - combat hardsuit, military license. Built-in linear frame (MIGHT = 8).
 
 
 Armor exists at 30+, but requires so much mechanical assistance and engineering support that it is effectively an enclosed, powered exosuit and requires a military license and an auto-repair shop's worth of specialized equipment.
@@ -773,9 +773,11 @@ When you are reduced to 0 health for the first time during a job, roll 1d6 to se
 
 ### First Aid
 
-Someone trained in the Medicine skill can tend to physical wounds. Roll a 1d10+Lore+Medicine against a TN of 10. 
+Anyone trained in the Medicine skill can tend to physical wounds. Roll 1d10+Lore+Medicine against TN 10. 
 
-First Aid restores Health equal to the result of the check - 10. This process of assessment and application requires 10 minutes, access to basic medical supplies, and a lack of overt distractions. For each unfulfilled requirement, the amount of restored health is reduced by an additional 5 (minimum 0 health restored). Restoring at least one health to a dying character stabilizes them until full treatment or a new wound is received. The check may be attempted again if no health was restored by the previous check, but the time requirement doubles for each consecutive check on the same subject within 48 hours.
+First Aid restores Health equal to the result of the check - 10. This process of assessment and application requires 10 minutes, access to basic medical supplies, and a lack of overt distractions. For each unfulfilled requirement, the amount of restored health is reduced by an additional 5 (minimum 0 health restored). The check may be reattempted if no health was restored, but the time requirement doubles for each consecutive check on the same subject within 48 hours.
+
+Similarly, one may attempt to stabilize a character that has been reduced to 0 Health and is bleeding out. This process takes a number of rounds equal to 1d10 - the subject's Grit, at the end of which the attending character rolls as described above. If any Health would be restored, the subject is stabilized at 0 Health until more significant treatment or a new wound is received. Further First Aid may be immediately administered to restore the subject's Health.
 
 ### Emergency Medical Attention
 
@@ -791,7 +793,7 @@ Reducing your maximum Health to zero or lower triggers organ failure, unconsciou
 
 You restore one Health per day while going about the business of simply living. Complete bed rest restores three Health per day. Hospital or clinic care restores five Health per day of active treatment. 
 
-Immersion in a recuperative tank of biofluid is catastrophically expensive, rare, and restores fifteen Health per day of treatment. Tank treatment regenerates any missing limbs, organs, senses, or genetic curiosities possessed at birth after three full days of treatment.
+Immersion in a recuperative tank of biofluid restores fifteen Health per day of treatment *as long as the subject's brain is intact*. While a damaged brain cannot be restored, tank treatment regenerates any other missing limbs, organs, senses, or genetic curiosities possessed at birth after three full days of treatment. Tank treatment costs $30,000 to access plus an additional $3,000 for each day of treatment.
 
 # Hacking: Headware and an AMP
 
