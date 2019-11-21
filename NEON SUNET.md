@@ -87,6 +87,7 @@ When rounding, always round down to the nearest whole number.
 - Spend 30 points across your six stats.
 - Spend 30 points across your desired skills.
 - Pick areas of expertise for each skill with at least one rank.
+- Fill out your Civilian License: Name, Age, Country of Origin, Sex, Height, Weight, Current Eye Color, Current Hair Color, Current Cyberware/Augmentations, Criminal History
 
 Your character is not complete until you have an answer to these questions:
 
@@ -293,13 +294,13 @@ Skills marked with with an "(C)" are **common**; everyone gains experience in th
 | Brawling       | Might              | Martial arts, boxing, or the brutal simplicity of old-fashioned chin music. Defending against the same. | Special. See below.                                          |
 | Driving        | Grace or Lore      | Use Grace for physical controls; use Lore to pilot vehicles with a cybernetic interface. | Types of vehicles (car, motorcycle, speedboat, hovercraft, helicopter, tank, drone, etc.) |
 | Manipulate (C) | Charm **and** Lore | Convincing people to do what you want. Different methods have different consequences; see below. | Methods of manipulation (Bribery, Deception, Persuasion, Intimidation) |
-| Medicine       | Lore               | Knowledge and application of medical technqiues and concepts. Used for combat first aid. | Types of medicine (EMS, surgery, disease, poisons and toxins) |
+| Medicine       | Lore               | Knowledge and application of medical techniques and concepts. Used for combat first aid. | Types of medicine (EMS, surgery, disease, poisons and toxins) |
 | Perception (C) | Luck               | Noticing important things near you, like dropped keys, weird smells, or landmines. | Methods of observation (visual, auditory, olfactory, touch, electronic surveillance, etc.) |
 | Shooting       | Grace              | Hitting targets with fired or thrown ranged weapons.         | Types of ranged weapons (pistol, rifle, shotgun, SMG, rocket, grenade launcher, etc.) |
 | Stealth        | Grace or Lore      | Use Grace for remaining inconspicuous to living creatures. Use Lore against digital sensors. | Stealth within a context (crowds, cities, driving, digital networks,etc.) |
 | Streetwise (C) | Lore               | Knowing a location like a native. Who's who, what's dangerous, where to get a good burrito. | Individual places the size of a city district.               |
 | Swordplay      | Grace              | Effective use of any kind of melee weapon, including cyberlimbs. Defending against the same. | Types of melee weapons (swords, clubs, knives, axes, hammers, cyberlimbs, implanted cyberweapons) |
-| Technology     | Lore               | Knowledge of and ability to use, build, or manipulate technologies. Used to craft equipment. | Areas of tech (electronics, cybertech, inorganic chemistry, drugs, gunsmithing, etc.) |
+| Technology     | Lore               | Knowledge of and ability to use, build, or manipulate technologies. Used to modify equipment. | Types of tech (electronics, cybertech, chemistry, drugs, gunsmithing) or hacking (hard, soft, access, information) |
 | Tracking       | Lore               | Following the trail of people, animals, vehicles, or data.   | Tracking in terrain (Urban, Forest, Tundra, Social Media, Databases, etc.) |
 
 #### Special Skill Rules
@@ -477,11 +478,12 @@ After you complete a run, the GM will award each player a number of points to sp
 
 ## Money [TODO]
 
-Two kinds of currency: Scrip and Coin. Printed money still exists, but 
+Two kinds of currency: Scrip and Coin. Printed money still exists, but only the government accepts it.
 
-- Scrip is corporate currency. 
+- Scrip is corporate currency. It's tracked, and tradeable between different corporations.
+- Coin is untraceable digital currency. You can buy double value in Scrip with it, but can't convert Scrip to Coin.
 
-## Cyberware [TODO]
+## Cyberware [TODO: Specifics; Drawbacks?]
 
 Secondhand Cyberware: Functional, but -1d to do anything with it. At least it's not a pegleg. Very cheap.
 
@@ -490,8 +492,7 @@ Baseline Prosthetics: Equivalent to a human limb or sense. Obviously artificial.
 Cyberware Replacements: Upgrades over the original meat.
 
 **How is cyberware different from the stuff that justifies having a stat over 6?**
-
-Systemic augmentation increases your base stats and requires weeks of healing and months of adjustment to get the most out of one's newfound abilities, especially if the augmentations are installed during adulthood rather than during the peak mental plasticity of childhood. Given the risks and costs of major surgery, systemic augmentation of children is vanishingly rare, although not unheard-of.
+Systemic augmentation increases your base stats and requires weeks of healing and months of adjustment to get the most out of one's newfound abilities, especially if the augmentations are installed during adulthood rather than during the peak mental plasticity of childhood. Given the risks and costs of major surgery, systemic augmentation of children is vanishingly rare, although not unheard-of. Cyberware is an add-on to one's current body, generally providing an entirely new faculty rather than enhancing one's baseline capabilities.
 
 - Options: 
   - Axial upgrades (head, neck, spinal structure, chest)
@@ -686,7 +687,7 @@ A miniaturized combination of plasma cutter and coilgun, heatblock weapons accep
 
 - Mechanics: When using a heatblock weapon, don't track individual shots. At the end of a round in which a heatblock weapon was fired in semiauto, burst fire, or full auto mode, roll a number of d6s equal to the weapon's damage dice. Roll one additional d6 if the weapon was used for burst fire, or two additional d6s if the weapon was used for full auto. If any of the dice rolled show a six, the weapon has overheated and cannot be fired for a number of rounds equal to the weapon's damage dice (example: 3d6 damage, 3 rounds to cool down). Alternatively, the weapon can be readied to fire again immediately if the overheated block is ejected and a fresh block is inserted. Note that ejecting an overheated block drops a molten lump of metal at the user's feet.
 
-## Melee Attacks [TODO: SERIOUS RECONSIDERATION]
+## Melee Attacks [TODO: clean up presentation]
 
 Opposed rolls. 
 
@@ -800,7 +801,7 @@ In the past, hacking required extensive knowledge of computer protocols, scripti
 
 Only the terminally enthusiastic call it MAGIC, though; most call it **headware**.
 
-**[TODO: Put everything that isn't directly related to a player capability or game mechanic into WORD JAIL.]** Headware is a nanomachine slurry that a corporation will pay you (?) to inject (?) into your brain. It takes a month to integrate, after which you have a smartphone and personal assistant expert system in your brain forever, and the corporation gets an interface through which to advertise to you forever. Headware is powered by a negligible bioelectric draw, and uses an ear clip transcranial magnetic stimulation unit with retractable universal data cable for input, output, and storage. The TMS unit includes a compact wireless antenna with an open-air range of about 100m **[WORD JAIL]**. You can install and run apps on your headware--as long as they're signed by a corporation. **[WORD JAIL]**
+**[TODO: Put everything that isn't directly related to a player capability or game mechanic into WORD JAIL.]** Headware is a nanomachine slurry that a corporation will pay you (?) to inject (?) into your brain. It takes a month to integrate, after which you have a smartphone and personal assistant expert system in your brain forever, and the corporation gets an interface through which to advertise to you forever. Headware is powered by a negligible bioelectric draw, and uses an ear clip transcranial magnetic stimulation unit with retractable universal data cable for input, output, and storage. The TMS unit includes a compact wireless antenna with an open-air range of about 100m **[WORD JAIL, except for the 100m part]**. You can install and run apps on your headware--as long as they're signed by a corporation. **[WORD JAIL]**
 
 This was mostly a cool toy until someone (???) invented the Archaeometric Meta-Protocol. An AMP scans existing network topologies by reading optical and electrical signal "contrails". It uses solipsistic predictive modeling systems to reinterpret the data in a format that a mind-computer interface like your headware can parse. Essentially, an AMP is a Rosetta Stone that translates arbitrary networked information systems into intuitive mental images in humans. There's a whitepaper, but almost everybody who claims to understand it is full of shit. There are thousands of different implementations of AMP, minutely reconfigured to individual preferences.
 
@@ -820,17 +821,22 @@ Yet those who dare, win. If they say the sysadmin is incorruptible and the serve
 
 All hacking attempts are performed with a roll of **1d10 + Lore + Technology**.
 
-Decide if you want **Access** or **Information**. Then, decide if you want to attempt the hack using **Hard** or **Soft** methods.
+First, decide if you want **Control** or **Information**. If you're hacking for control, name the device you're trying to control. If you're hacking for information, ask the question you're trying to answer.
+
+- Hacking for **control** provides a brief window of control over a physical device or electronic system within 100m that has a network connection. Hacking for access could, for example, open an electronic lock, control an elevator, start or control a vehicle, or provide commands to a surveillance system. It couldn't detonate grenades on someone's belt (they aren't networked) or fire an orbital satellite weapon (it's not within 100m).
+- Hacking for **information** provides the answer to a single question of objective fact which is not available to the general public. Each question answered requires a separate roll. Hacking for information can answer questions like "Where does the VP of Research for *Tarokoten Exploration Unlimited* live," or "What is the standard armament of *Tarokoten* corporate security," or "Which corporations and nation-states do not currently have extradition agreements with *Tarokoten* or its subsidiaries?" It couldn't answer questions like "What is the best way to kidnap a corporate executive," (there is no single best answer) or "Is our driver trustworthy," (there's no objective answer) or "Is the bodega down the street open" (hacking isn't necessary to answer this question).
+
+Second, decide if you want to attempt the hack using **Hard** or **Soft** methods.
 
 - **Hard** methods are very fast, but inefficient. If you're using a physical computer, you risk damaging the hardware. If you're using headware, you risk damage to your health. You can mitigate this damage by using **backup hardware** or injecting units of **CSF coolant**.
   - The base time required to execute a Hard hack is 1d10 rounds.
-  - Using Hard methods in pursuit of Access has a base difficulty of TN 10.
-  - Using Hard methods in pursuit of Information has a base difficulty of TN 15.
+  - Using Hard methods in pursuit of Access has a base difficulty of TN 15.
+  - Using Hard methods in pursuit of Information has a base difficulty of TN 20.
 
 - **Soft** methods are slow, but efficient. No matter what kind of device you're using, you risk exposing information about yourself--your location, your goals, and your personal identity. You can protect yourself from exposure by **hacking from an unimportant location** or employing a **fake identity**.
   - The base time required to execute a Soft hack is 4 hours.
-  - Using Soft methods in pursuit of Access has a base difficulty of TN 15.
-  - Using Soft methods in pursuit of Information has a base difficulty of TN 10.
+  - Using Soft methods in pursuit of Access has a base difficulty of TN 20.
+  - Using Soft methods in pursuit of Information has a base difficulty of TN 15.
 
 While you're executing a hack, you're free to perform other actions so long as the computer or headware you're using to hack isn't used for another task or destroyed.
 
@@ -849,11 +855,11 @@ While you're executing a hack, you're free to perform other actions so long as t
 
 Getting a legitimate **account** on a system containing your desired information or device access is hugely beneficial. While a lack of legitimate access won't stymie a skilled hacker, even a basic user account offers major insight into the workings of a system. Admin accounts are even more useful, and there's virtually nothing more effective than gaining physical access to a computer in order to (literally or figuratively) crack it open. User accounts are gained as easily as signing up for a service or posing as an employee. Admin accounts are rare, but there's always at least one person who has one. Gaining physical access to a computer system may be an entire job on its own.
 
-### Success
+### **Success**
 
-A successful hack for access gives control to the hacker for 1d10 rounds before the system regains control. Access to a device allows the hacker to perform any normal function of that device, to shut down the device, or to insert destructive code that will cause the device to strain itself to the point of breakage 1d10 rounds after the command is given.
+**A successful hack for control** allows a hacker to give commands to a device for 1d10 rounds before the system boots them out. Control of a device allows the hacker to perform any normal function of that device, to shut down the device, lock out other users from changing the device's current state, or to insert code that will cause the device to destroy itself at any point up to and including the final round in which the hacker controls the device.
 
-A successful hack for information has no relevant duration; long-term monitoring of a system is not possible without a legitimate account. If a hacker wants to delete information from a system, a hack for access is required.
+**A successful hack for information** reveals the answer to the question asked or subject researched. A hack for information has no relevant duration; long-term monitoring of a system is not possible without a legitimate account. If a hacker wants to delete information from a system, a hack for access is required.
 
 ### Failing a Hard Hack
 
@@ -861,22 +867,40 @@ Failing a hack using Hard methods inflicts a number of d6s in damage equal to th
 
 If the failed Hard hack was attempted using headware, this damage is inflicted directly to the hacker as their brain overheats. Damage can be mitigated using injections of **cerebrospinal fluid coolant (CSFC)**. Each unit of CSFC costs $500 and reduces incoming damage by 1d6 before the damage is rolled. Injecting a unit of CSFC takes an action. A human can contain a number of units of CSFC equal to their Grit stat, and units of CSFC are naturally excreted (used or not) after 24 hours. Injecting more units of CSFC than the body can support is very dangerous, reducing Charm and Lore stats by 1 for each unit beyond the body's capacity. The reduction to Charm and Lore requires a week of hospital treatment to reverse by 1d6 points; any reduction not cured by hospital treatment is permanent brain damage.
 
-If the failed Hard hack was attempted using an external computer, the damage is inflicted to the computer itself as portions of the hardware overheat. A baseline computer has 10 Health. A set of **disposable heatsinks** costs $500 and reduces incoming damage by 1d6 before the damage is rolled, after which the set of heatsinks is destroyed. Installing a set of heatsinks takes a single round. If a computer's Health is reduced to 0 by damage from a failed Hard hack, the device catastrophically overheats and bursts into flame. 
+If the failed Hard hack was attempted using an external computer, the damage is inflicted to the computer itself as portions of the hardware overheat. A baseline computer has 10 Health. A set of **backup hardware** costs $500 and reduces incoming damage by 1d6 before the damage is rolled, after which the backup hardware--disposable heatsinks, ablative processor extensions, etc.--is destroyed. Installing backup hardware takes one round. If a computer's Health is reduced to 0 by damage from a failed Hard hack, the computer catastrophically overheats and bursts into flame. 
 
-The base health of a computer can be improved by installing durable liquid metal cooling and other redundant systems, but this increases the size of the computer and quickly renders it difficult to transport.
+The base health of a computer can be improved by installing durable liquid metal cooling or other redundant systems, but this increases the size of the computer and quickly renders it inconvenient to transport.
 
-| Base Computer Health | Additional Cost |      Approximate Size      |
-| :------------------: | :-------------: | :------------------------: |
-|          10          |       $0        |   Slim Laptop or Tablet    |
-|          20          |     $2,000      |         Briefcase          |
-|          30          |     $4,000      |      Desktop Computer      |
-|          40          |     $8,000      |     Entire Office Desk     |
-|          50          |     $16,000     |  Full Desk + Server Tower  |
-|          60          |     $32,000     | Console + Full Server Room |
+| Base Computer Health | Additional Cost |          Approximate Size          |
+| :------------------: | :-------------: | :--------------------------------: |
+|          10          |       $0        |       Slim Laptop or Tablet        |
+|          20          |     $2,000      |             Briefcase              |
+|          30          |     $4,000      |          Desktop Computer          |
+|          40          |     $8,000      |          Integrated Desk           |
+|          50          |     $16,000     |   Integrated Desk + Server Tower   |
+|          60          |     $32,000     | Integrated Desk + Full Server Room |
 
-### Failing a Soft Hack [TODO]
+### Failing a Soft Hack
 
-*TODO, but you reveal info about you to your target.*
+When you fail a hack using Soft methods, roll on the following chart.
+
+| Result | Information Potentially Revealed |
+| :----: | :------------------------------: |
+|  1-3   |             Location             |
+|  4-5   |              Intent              |
+|   6    |             Identity             |
+
+The roll's result is the information that is at risk of being revealed. [TODO: Add HEAT effects to all of these.]
+
+- **Location:** The owners of the system containing your requested information learn where you are, physically, right now.
+- **Intent:** The subject of your query (or their security) is alerted to the question you asked about them. They have no idea who asked it. Yet.
+- **Identity:** Your civilian license is revealed to your target. They know who you are--or at least whomever is listed on the license you're using.
+
+Having failed the hack, you have two options: 1) abandon the attempt, or 2) press your luck. If you abandon the attempt, you don't get the answer to your question and your information is revealed. If you press your luck, you can reroll your hack with a -1d penalty; success on this check answers the question without revealing any information about you; failure gives you no answers and reveals not only the rolled information, but an additional roll on the chart as well. If the information revealed from failing to press your luck matches the information from the initial roll, you got lucky--sort of--and have only revealed a single category of info about yourself.
+
+The most expedient defense against self-revelation is to hack from unimportant locations--public areas with tremendous traffic, places your target can't or won't chase you, or simply a new location for every attempted hack. 
+
+You can also purchase a **fake civilian license** in varying qualities. A basic fake license costs $500 and provides a 1-in-6 chance to protect against a revelation of your identity. Each additional chance out of six to protect your identity doubles the cost of the license. A fake civilian license can sustain a number of flags equal to the chance out of six it has to protect you before being permanently flagged as fake and rendered useless. License status is public; anyone can check if a civilian license has been permanently flagged as a fake.
 
 
 
