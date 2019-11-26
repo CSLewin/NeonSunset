@@ -1,4 +1,4 @@
-# **<u>NEON SUNET</u>**
+# **<u>NEON SUNSET</u>**
 
 *A Cyberpunk Roleplaying Game by Craig Chouraki-Lewin* - [blog](http://www.diaghilevsdice.blogspot.com), [email](mailto:CSLewin@gmail.com)
 
@@ -181,12 +181,12 @@ You start with a Professional Reputation of 2 in all areas matching your Focus a
 
 Each stat ranges from 1 to 10. Human average in a stat is 3; the maximum human potential is 6. Beyond that, augmentation is necessary--except for Luck, which naturally ranges from 1-10. The maximum possible value of any stat is 10.
 
-If you start with a stat above the human maximum of 6--a perfectly valid choice--consider how you achieved this. Vat-grown muscle? Skeletal hardpoints for an assistive exoframe? Superconductive spinal implants? Immunosupportive germline engineering? Pheromone glands? A headware library of reference material? Extensive nanomedical supplements? There is no additional cost to start the game with a stat above 6, but an explanation and description are required--any stat above 6 will have obvious physical signs.
+If you start with a stat above the human maximum of 6--a perfectly valid choice--consider how you achieved this. Vat-grown muscle? Skeletal hardpoints for an assistive exoframe? Superconductive spinal implants? Germline engineering? Pheromone glands? A headware library of reference material? Extensive nanomedical supplements? There is no additional cost to start the game with a stat above 6, but an explanation and description are required--any stat above 6 will have obvious physical signs.
 
 You have a number of stat points to spend based on the power level of the game. You should decide on this power level in a conversation between the players and the GM before the game starts. 
 
 - **Gutterpunk Trash**: Spend **24 stat points**. Your character is close to average, for better or worse.
-- **Cyberpunk Standard**: Spend **30 stat points**. You're a cut above. This is the default used in these rules.
+- **Cyberpunk Standard**: Spend **30 stat points**. You're a cut above. This is the NEON SUNSET default.
 - **Dark Future Heroics**: Spend **36 stat points**. Your character is significantly stronger than average.
 
 While severe trauma can reduce your stats during gameplay, it is not possible to increase your stats beyond their initial values. Make sure you're happy with your stats before the game begins.
@@ -284,7 +284,7 @@ If you'd like to quickly assign your skill points, consider putting 7 skill poin
 
 ### Common Skills
 
-Skills marked with with an "(C)" are **common**; everyone gains experience in them just by growing up in a society. **Common skills start at Rank 2.** They follow the usual rules for areas of expertise.
+Skills marked with a "(C)" are **common**; everyone gains experience in them just by growing up in a society. **Common skills start at Rank 2.** They follow the usual rules for areas of expertise.
 
 ### Skill List
 
@@ -330,15 +330,20 @@ NPCs cannot attempt manipulation skill checks against PCs; while NPCs can propos
 There are four essential approaches to manipulation. To carry any weight, each approach requires evidence that your offer, statement, or trade is actually possible, and each approach has a general consequence for failing to follow through or otherwise getting caught:
 
 - **Deception** is an outright lie meant to convince. On a failed check, the target simply finds you unconvincing. Getting caught lying, however, will impose -1d to all future Manipulation attempts against the target.
+
 - **Intimidation** compels the target through the threat or act of violence. A failed check requires you to carry out your threat or suffer -1d on all future Manipulation attempts against the target. If the target survives the encounter, they will generally look for a way to get back at you, directly or indirectly, for any harm or embarrassment inflicted.
+
 - **Negotiation** trades one action for another. On a failed check, the target doesn't believe you have the means to carry out your end of the deal. If you succeed on your check but fail to deliver on your promises, you suffer -1d on all future Manipulation attempts against the target. If they were particularly reliant on your actions, they may seek additional recompense.
+
 - **Bribery** offers money or goods in exchange for action or information. On a failed check, the target is unconvinced that your offer is worth their time or risk. Even when successful, a wise target generally won't act until the bribe is delivered.
-  - The value required to bribe someone is unpredictable. To eyeball an amount, the GM should roll 3d6 to find the base bribe, then multiply that by a value commensurate with the social class or sheer chutzpah of the target. The higher the bribe, the more likely that it will be requested in currency, rather than goods.
-    - x $1-100 for the the destitute and desperate or the stable but poor.
-    - x $100-1,000 for the comfortably employed, the rich, or government/corporate employees.
-    - x $1,000-10,000 for minor corporate officers or anyone addressable as "Your Honor/The Honorable".
-    - x $10,000-100,000 for anyone who doesn't care about the money and just wants to make your life hard.
-    - x $100,000-1,000,000 for CEOs and potentates, who won't consider anything less than a retirement plan.
+  
+  The value required to bribe someone is unpredictable. To eyeball an amount, the GM should roll 3d6 to find the base bribe, then multiply that by a value commensurate with the social class or sheer chutzpah of the target. The higher the bribe, the more likely that it will be requested in currency, rather than goods.
+  
+  - x $1-100 for the destitute and desperate or the stable but poor.
+  - x $100-1,000 for the comfortably employed, the rich, or government/corporate employees.
+  - x $1,000-10,000 for minor corporate officers or anyone addressable as "Your Honor/The Honorable".
+  - x $10,000-100,000 for anyone who doesn't care about the money and just wants to make your life hard.
+  - x $100,000-1,000,000 for CEOs and potentates, who won't consider anything less than a retirement plan.
 
 ## Prior Jobs
 
