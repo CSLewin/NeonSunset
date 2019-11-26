@@ -44,7 +44,7 @@ Roll 1d10 and add your relevant stat, relevant skill, and any modifiers from you
 For each **advantage** on a roll, roll an additional d10 and use the **highest** single die rolled. Advantage is written as "+1d".
 For each **disadvantage** on a roll, roll an additional d10 and use the **lowest** single die rolled. Disadvantage is written as "-1d".
 
-*Example: A metabolic filter is cyberware that grants +1d to resist poisons and sources of intoxication.*
+*Example: A metabolic filter is cyberware that grants +1d to resist the effects of poison. Usually, attempting to resist a poison means you’d roll 1d10 + Grit against the TN of the poison. If you have a metabolic filter installed, you’d roll one additional d10 and only add your Grit to the highest result from all the d10s you rolled before comparing the total to the TN.*
 
 **You can have a maximum of three advantages and three disadvantages applied to a single roll.** Individual advantages and disadvantages on the same roll cancel each other out. Diminishing returns start around two or three dis/advantages; it's just not worth tracking any more than that.
 
@@ -83,7 +83,7 @@ When rounding, always round down to the nearest whole number.
 
 - Pick a Focus: Combat, Social, or Tech
 - Pick an Approach: Institutional, Self-Reliance, Community
-- Determine your initial Profession Reputation and General Reputation
+- Determine your initial Professional Reputation and General Reputation
 - Spend 30 points across your six stats.
 - Spend 30 points across your desired skills.
 - Pick areas of expertise for each skill with at least one rank.
@@ -96,7 +96,7 @@ Your character is not complete until you have an answer to these questions:
 
 ## Focus
 
-Select your primary Focus: **Combat**, **Social**, or **Tech**. Although you're capable of many other tasks, your Focus defines your main skillset.
+Select your primary Focus: **Combat**, **Social**, or **Tech**. Although you're capable of many other tasks, your Focus defines your main skill set.
 
 ### Combat Focus
 
@@ -110,7 +110,7 @@ Your business is discriminate violence; dealing death while surviving the same.
 
 ### Social Focus
 
-Your primary skillset is interpersonal; negotiation, manipulation, and coercion.
+Your primary faculties are interpersonal; negotiation, manipulation, and coercion.
 
 - Divide 2 free stat points among Charm, Lore, and Luck.
 - Divide 4 free skill points among Perception, Tracking, Streetwise, Stealth, and Manipulate.
